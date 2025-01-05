@@ -2,13 +2,15 @@
 .headerMain{
   width: 100%;
   background-color:var(--primary-color);
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 .header {
   max-width: 1250px;
   margin: auto;
   position: sticky;
   top: 0;
-  z-index: 10;
   height: 80px;
   display: flex;
   align-items: center;

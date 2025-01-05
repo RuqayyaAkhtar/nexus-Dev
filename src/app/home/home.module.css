@@ -59,7 +59,6 @@ background-color: var(--primary-color);
   .ctaButton:hover {
     background-color: transparent;
     color: var(--secondary-color);
-    /* border: 1px solid var(--secondary-color); */
   }
   
   .rightColumn {
@@ -135,7 +134,6 @@ background-color: var(--primary-color);
     align-items: center;
     position: relative;
     border-radius: 20px;
-    /* overflow: hidden;  */
   }
   
   .yellowCircle {
@@ -148,18 +146,6 @@ background-color: var(--primary-color);
     z-index: 1;
     filter: blur(30px); 
   }
-  
-  /* .yellowCircle::after {
-    content: '';
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: var(--secondary-color);
-    bottom: 0;
-    left: calc(50% - 75px);
-    z-index: 1;
-  } */
   
   .statCardmain {
     z-index: 5;
@@ -306,9 +292,6 @@ background-color: var(--primary-color);
     text-align: center;
   }
   .serveCardMain{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
     margin-top: 5%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -377,7 +360,6 @@ background-color: var(--primary-color);
 
   .imageContainer1{
     position: relative;
-    /* padding: 4rem 2rem; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -387,9 +369,8 @@ background-color: var(--primary-color);
   .circle {
     position: absolute;
     border-radius: 50%;
-    background-color: var(--secondary-color); /* Use your theme color */
+    background-color: var(--secondary-color); 
     z-index: 1;
-    /* filter: blur(20px); */
   }
   
   .smallCircle {
