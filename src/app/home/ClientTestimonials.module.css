@@ -1,0 +1,140 @@
+.testimonial{
+ width: 100%;
+ background-color: #ffffff;
+
+}
+.container {
+    max-width: 1250px;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+    background-color:white;
+    overflow: hidden ; 
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-family: var(--font-family4);
+  }
+  
+  .subheading {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+    padding: 0 20%;
+  }
+  
+  .sliderContainer {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .sliderContainerMain {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden; 
+    z-index: 3;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    padding: 5% 0;
+    z-index: 3;
+  }
+  
+  .slide {
+    flex: 0 0 100%; 
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    position: relative;
+    background: linear-gradient(to top right,#fdbb2037,rgba(255, 255, 255, 0.536),#3247462e);
+    backdrop-filter:blur(5px);
+    z-index: 10;
+  }
+  .imageMain{
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 40px);
+  }
+  .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black-color);
+    margin-top: 40px;
+  }
+  
+  .role {
+    font-size: 0.9rem;
+    color: var(--span-color);
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  
+  .feedback {
+    font-size: 18px;
+    color:var(--primary-color);
+    line-height: 1.5;
+    margin-top: 10px;
+    z-index: 10;
+    font-family: var(--font-family1);
+  }
+  
+  .dots {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:var(--primary-color);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .activeDot {
+    background:var(--secondary-color);
+    transform: scale(1.3);
+  }
+  
+  /* Decorative Circles */
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .circleTopRight {
+    top: 0;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    background-color: var(--primary-color);
+  }
+  
+  .circleBottomLeft {
+    bottom: -20px;
+    left: 10px;
+    width: 120px;
+    height: 120px;
+    background-color: var(--secondary-color);
+  }
+ 
