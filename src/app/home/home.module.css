@@ -570,8 +570,12 @@ background-color: var(--primary-color);
   font-size: 15px;
   display: flex;
   align-items: center;
+  transition: all .3s;
 }
-
+.exploreButtonR:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
 .imageContainerR {
   flex: 1;
   max-width: 500px;
@@ -597,11 +601,12 @@ background-color: var(--primary-color);
   border-radius: 50%;
   background: var(--primary-color);
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.3s;
 }
 
 .activeDot {
   background:var(--secondary-color);
+  transform: scale(1.3);
 }
 
 /*  */
