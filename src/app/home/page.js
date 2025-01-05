@@ -63,7 +63,7 @@ const HeroSection = () => {
           <button className={styles.smallButton}><RiArrowDownFill /></button>
         </div>
 
-        <div className={styles.rightSide}>
+       <div className={styles.rightSide}>
   <div className={styles.yellowCircle}></div>
   <div className={styles.statCardmain}>
     <div className={styles.statCarddiv}>
