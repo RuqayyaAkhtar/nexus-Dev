@@ -177,7 +177,7 @@ const HeroSection = () => {
     </section>
     {/* section4 */}
     <section className={styles.section2Main}>
-    <div className={styles.section2}>
+    <div className={`${styles.section2} ${styles.section2R}`}>
         {/* Left Column */}
         <div className={styles.leftColumn}>
           <h1 className={styles.heading1}>
@@ -198,7 +198,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right Column */}
-        <div className={styles.rightColumn}>
+        <div className={`${styles.rightColumn} ${styles.rightColumn2}`}>
           <div className={styles.imageContainer1}>
           <div className={`${styles.circle} ${styles.smallCircle} ${styles.topCircle}`}></div>
       <div className={`${styles.circle} ${styles.smallCircle} ${styles.bottomCircle}`}></div>
@@ -299,7 +299,7 @@ const HeroSection = () => {
       <div className={styles.mainB}>
 <h1>Already Have a Project?</h1>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry <a href="#">ourcompany@gmail.com</a> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-<button className={styles.ctaButton}>Start A Project</button>
+<button className={`${styles.ctaButton} ${styles.ctaButton2}`}>Start A Project</button>
       </div>
      </div>
     </section>

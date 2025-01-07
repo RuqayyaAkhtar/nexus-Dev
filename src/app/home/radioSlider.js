@@ -38,9 +38,9 @@ const ProjectsSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      handleNext();
-    }, 6000);
+    // const interval = setInterval(() => {
+    //   handleNext();
+    // }, 6000);
     return () => clearInterval(interval);
   }, [currentIndex]);
 

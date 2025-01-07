@@ -39,9 +39,9 @@ const testimonials = [
   
     // Auto-slide every 2 seconds
     useEffect(() => {
-      const interval = setInterval(() => {
-        handleNext();
-      }, 2000);
+      // const interval = setInterval(() => {
+      //   handleNext();
+      // }, 2000);
   
       return () => clearInterval(interval);
     }, [currentIndex]);

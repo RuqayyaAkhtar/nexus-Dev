@@ -7,6 +7,7 @@
   --secondary-color: #FDB920;
   --span-color: #64748B;
   --black-color: #090914;
+  --formCard-color: #5b6c6b;
   --footer-bg:#324746F0;
   --smallCircle-bg:#E1E3E636;
   --font-family1: "Poppins", sans-serif;
@@ -22,6 +23,7 @@
   list-style: none !important;
   box-sizing: border-box;
   font-family: var(--font-family1);
+  outline: none;
 }
 
 

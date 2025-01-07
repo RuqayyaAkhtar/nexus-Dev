@@ -67,16 +67,15 @@ const Header = () => {
             <ul className={styles.menuList}>
               <li><a href="/stocklyhubdev">Home</a></li>
               <li><a href="/stocklyhubdev/industries">Industries</a></li>
-              <li><a href="/stocklyhubdev/features">Features</a></li>
-              <li><a href="/stocklyhubdev/integration">Integrations</a></li>
-              <li><a href="/stocklyhubdev/pricing">Pricing</a></li>
+              <li><a href="/stocklyhubdev/features">Service</a></li>
+              <li><a href="/stocklyhubdev/pricing">About us</a></li>
               <li><a href="/stocklyhubdev/contacts">Contact Us</a></li>
               <li><a href="/stocklyhubdev/login">Login</a></li>
               <li><a href="/stocklyhubdev/blogs">Blogs</a></li>
               <li><a href="/stocklyhubdev/faqs">Faqs</a></li>
               <li>
                 <button className={styles.demoBtn2}>
-                  <a href="/stocklyhubdev/bookDemo" className={styles.text_light}>Free Demo</a>
+                  <a href="/stocklyhubdev/bookDemo" className={styles.text_light}>Get in Touch</a>
                 </button>
               </li>
             </ul>

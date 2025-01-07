@@ -32,8 +32,8 @@ const Footer = () => {
             Design amazing digital experiences that create more happy in the world.
             </p>
             <div className={styles.contact}>
-              <p><FaPhoneAlt />+92300 1265821</p>
-              <p><FaEnvelope />example@gmail.com</p>
+             <a href="#"> <p><FaPhoneAlt />+92300 1265821</p></a>
+             <a href="#"> <p><FaEnvelope />example@gmail.com</p></a>
             </div>
           </div>
           <div className={styles.footer_sec}>
