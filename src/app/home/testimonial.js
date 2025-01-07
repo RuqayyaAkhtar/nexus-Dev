@@ -37,11 +37,10 @@ const testimonials = [
   const ClientTestimonials = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
   
-    // Auto-slide every 2 seconds
     useEffect(() => {
-      // const interval = setInterval(() => {
-      //   handleNext();
-      // }, 2000);
+      const interval = setInterval(() => {
+        handleNext();
+      }, 2000);
   
       return () => clearInterval(interval);
     }, [currentIndex]);
