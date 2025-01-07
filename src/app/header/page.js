@@ -35,23 +35,23 @@ const Header = () => {
     <section className={styles.headerMain}>
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={styles.logoContainer}>
-        <a href="/stocklyhubdev">
+        <a href="/nexus-Dev">
           <Image className={styles.logoImage} src={logo} alt="Logo" priority />
         </a>
       </div>
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li><a href="/stocklyhubdev/industries">Home</a></li>
-          <li><a href="/stocklyhubdev/features">Services</a></li>
-          <li><a href="/stocklyhubdev/integration">Portfolio</a></li>
-          <li><a href="/stocklyhubdev/pricing">About us</a></li>
+          <li><a href="/nexus-Dev">Home</a></li>
+          <li><a href="/nexus-Dev">Services</a></li>
+          <li><a href="/nexus-Dev">Portfolio</a></li>
+          <li><a href="/nexus-Dev">About us</a></li>
         </ul>
       </nav>
 
       <div className={styles.btnMainBar}>
         <button className={styles.demoBtn}>
-          <a href="/stocklyhubdev/bookDemo" className={styles.bookDemoA}>Get in Touch</a>
+          <a href="/nexus-Dev" className={styles.bookDemoA}>Get in Touch</a>
         </button>
         <a className={styles.menuLi}>
           <CiMenuBurger className={styles.menuIcon} onClick={toggleMenu} />
@@ -65,17 +65,17 @@ const Header = () => {
               </button>
             </div>
             <ul className={styles.menuList}>
-              <li><a href="/stocklyhubdev">Home</a></li>
-              <li><a href="/stocklyhubdev/industries">Industries</a></li>
-              <li><a href="/stocklyhubdev/features">Service</a></li>
-              <li><a href="/stocklyhubdev/pricing">About us</a></li>
-              <li><a href="/stocklyhubdev/contacts">Contact Us</a></li>
-              <li><a href="/stocklyhubdev/login">Login</a></li>
-              <li><a href="/stocklyhubdev/blogs">Blogs</a></li>
-              <li><a href="/stocklyhubdev/faqs">Faqs</a></li>
+              <li><a href="/nexus-Dev">Home</a></li>
+              <li><a href="/nexus-Dev/industries">Industries</a></li>
+              <li><a href="/nexus-Dev">Service</a></li>
+              <li><a href="/nexus-Dev">About us</a></li>
+              <li><a href="/nexus-Dev">Contact Us</a></li>
+              <li><a href="/nexus-Dev">Login</a></li>
+              <li><a href="/nexus-Dev/">Blogs</a></li>
+              <li><a href="/nexus-Dev/">Faqs</a></li>
               <li>
                 <button className={styles.demoBtn2}>
-                  <a href="/stocklyhubdev/bookDemo" className={styles.text_light}>Get in Touch</a>
+                  <a href="/nexus-Dev/" className={styles.text_light}>Get in Touch</a>
                 </button>
               </li>
             </ul>

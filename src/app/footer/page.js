@@ -18,7 +18,7 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerSection1}>
             <div className={styles.logo}>
-              <a href="/stocklyhubdev">
+              <a href="/nexus-Dev">
                 <Image
                   src={footerlogo}
                   className={styles.logo_im_n}
@@ -87,9 +87,9 @@ const Footer = () => {
           <p className={styles.fP}>© 2025 Nexus-Dev. All rights reserved.</p>
         <div className={styles.footerBottom2}>
           <div className={styles.termss}>
-            <a href="/stocklyhubdev/privacy-policy" >Privacy & Policy</a>
-            <a href="/stocklyhubdev/GDPR">GDPR</a>
-            <a href="/stocklyhubdev/terms-conditions">Terms & Conditions</a>
+            <a href="/nexus-Dev" >Privacy & Policy</a>
+            <a href="/nexus-Dev">GDPR</a>
+            <a href="/nexus-Dev">Terms & Conditions</a>
           </div>
         </div>
       
