@@ -48,7 +48,6 @@
     position: relative;
     padding: 5% 0;
     z-index: 3;
-    overflow: hidden;
   }
   
   .slide {
