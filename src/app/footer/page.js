@@ -49,7 +49,7 @@ const Footer = () => {
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Industries</h3>
               <ul>
-               <a href="#"> <li>Health Care</li></a>
+               <a href="/industries"> <li>Health Care</li></a>
                <a href="#"> <li>Logistic</li></a>
                <a href="#"> <li>Real Estate</li></a>
                <a href="#"> <li>Travel</li></a>
