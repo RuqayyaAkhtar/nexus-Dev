@@ -49,12 +49,12 @@ const Footer = () => {
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Industries</h3>
               <ul>
-               <a href="/industries"> <li>Health Care</li></a>
-               <a href="#"> <li>Logistic</li></a>
-               <a href="#"> <li>Real Estate</li></a>
-               <a href="#"> <li>Travel</li></a>
-               <a href="#"> <li> Retail</li></a>
-               <a href="#"> <li>Education</li></a>
+               <a href="/nexus-Dev/industries"> <li>Health Care</li></a>
+               <a href="/nexus-Dev/industries"> <li>Logistic</li></a>
+               <a href="/nexus-Dev/industries"> <li>Real Estate</li></a>
+               <a href="/nexus-Dev/industries"> <li>Travel</li></a>
+               <a href="/nexus-Dev/industries"> <li> Retail</li></a>
+               <a href="/nexus-Dev/industries"> <li>Education</li></a>
               </ul>
             </div>
             <div className={`${styles.footerSection} ${styles.footer2}`}>
