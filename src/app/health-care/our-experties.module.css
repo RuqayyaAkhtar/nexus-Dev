@@ -1,0 +1,131 @@
+.heroSectionMain2 {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .solutionsSectionC {
+    padding: 5% 8%;
+    max-width: 1250px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .headingS {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .subheadingS {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 2% auto;
+  }
+  .cardContainer {
+   display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 5%;
+    position: relative;
+  }
+  .cardContainerr{
+    width: 80%;
+    margin-left: calc(100% - 79%);
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 30px; 
+    justify-content: center;
+    align-items: start;
+  }
+.card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding:0 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+  }
+  
+  
+  .icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+    
+  }
+  
+  .cardContent {
+    text-align: left;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+  }
+  
+  .cardDescription {
+    font-size: 18px;
+    font-weight: 400;
+    color:var(--primary-color);
+  }
+  
+  /*  */
+  .solutionsSectionC{
+    padding:5% 8%;
+    max-width: 1250px;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .imageContainer2{
+    position: absolute;
+    bottom: 0;
+    width:215px;
+    left: 0;
+    /* height: 100%; */
+    z-index: 1;
+  }
+  .heroImage2{
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    height: auto;
+  }
+
+  
+  @media (max-width:800px){
+   .imageContainer2{
+    display: none;
+   }
+   .cardContainerr{
+    width: 100%;
+    margin-left: 0;
+   }
+  }
+
+  @media (max-width:600px){
+  .headingS{
+  font-size: 30px;
+  }
+  .card{
+    flex-direction: column;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .icon{
+    margin: 0 0 5% 0;
+
+  }
+  }

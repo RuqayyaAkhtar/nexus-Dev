@@ -18,7 +18,7 @@ background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1250px;
     width: 100%;
     flex-wrap: wrap;
   }
@@ -90,7 +90,7 @@ background-color: var(--primary-color);
     backdrop-filter: blur(10px); 
     border-radius: 15px;
     margin: 2rem auto;
-    max-width: 1200px;
+    max-width: 1250px;
     width: 100%;
   }
   
@@ -191,7 +191,7 @@ background-color: var(--primary-color);
     flex-wrap: wrap;
     color: #d9d9d9;
     font-size: 1rem;
-    max-width: 1200px;
+    max-width: 1250px;
     width: 100%;
   }
   .bottomIcon{

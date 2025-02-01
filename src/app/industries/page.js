@@ -4,12 +4,6 @@ import React from 'react';
 import Image from 'next/image';
 import styles from "./industries.module.css";
 import heroImage from './industriesImages/Group 1197132576 (1).png'
-import { RiArrowDownFill } from "react-icons/ri";
-import { AiOutlineGlobal } from "react-icons/ai";
-import { LuBoxes } from "react-icons/lu";
-import { MdOutlineStarPurple500 } from "react-icons/md";
-import { BsArrowUpRightCircle } from "react-icons/bs";
-import { GoArrowUpRight } from "react-icons/go";
 import ClientTestimonials from '../home/testimonial'
 import RadioSlider from '../home/radioSlider'
 import Header from '../header/page'

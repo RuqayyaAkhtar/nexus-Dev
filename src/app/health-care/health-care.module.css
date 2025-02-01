@@ -1,0 +1,455 @@
+.heroSectionMain {
+    width: 100%;
+    background-color: var(--primary-color);
+    }
+    .heroSection {
+        background-color: var(--primary-color);
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5% 10% 5%;
+        max-width: 1250px;
+        margin: auto;
+      }
+      
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1250px;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      
+      .leftColumn {
+        flex: 1;
+        max-width: 550px;
+      }
+      
+      .heading {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        margin: 2% 0 18% 0;
+      }
+      
+      .description {
+        font-size: 24px;
+        line-height: 37px;
+        color: #d9d9d9;
+        margin-bottom: 2rem;
+      }
+      
+      .description2 {
+        font-size: 18px;
+        line-height: 27px;
+        color: #d9d9d9;
+        margin-bottom: 2rem;
+      }
+      
+    
+      
+      .rightColumn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 400px;
+        position: relative;
+      }
+      .imageContainer {
+          border-radius: 15px;
+          padding: 0.5rem;
+          margin-bottom: 2rem;
+          position: relative;
+        }
+        .imageContainer::after{
+          content: '';
+          position: absolute;
+          bottom: -10%;
+          right: -30px;
+          height:30%;
+          width:30%;
+          border-radius: 20px;
+          background:linear-gradient(#FFFFFF33,#FFFFFF33);
+          backdrop-filter:blur(10px);
+        }
+      .heroImage {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      
+    
+    /* section2 */
+    .heroSectionMain2{
+      width: 100%;
+      background-color: white;
+    }
+    .section2{
+      background-color: white;
+      max-width: 1250px;
+      padding: 5%;
+      margin: auto;
+    }
+    .container2{
+      background-color: var(--primary-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:4%;
+      border-radius: 10px;
+    }
+    .section2ri8{
+      width: 25%;
+    }
+    .section2ri8 img{
+      width: 100%;
+      height: auto;
+    }
+ .section2lft{
+width: 70%;
+color: white;
+ }
+ .section2lft h1{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+ }
+ .section2lft p{
+  font-weight: 400 !important;
+  margin-top: 2%;
+ }
+ .contactUsBtn{
+border: 1px solid var(--secondary-color);
+color: var(--secondary-color);
+background-color: transparent;
+padding: 8px 25px;
+border-radius: 30px;
+font-size: 18px;
+font-weight: 400;
+display: flex;
+align-items: center;
+margin-top: 3%;
+cursor: pointer;
+transition: all .3s;
+ }
+ .contactUsBtn:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+ }
+
+ /* health care app solutions */
+
+ .solutionsSection {
+  padding:0 8%;
+  max-width: 1250px;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headingS {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+}
+
+.subheadingS {
+  font-size: 1rem;
+  color:var(--primary-color);
+  margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+}
+
+
+.icon {
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  
+}
+
+.cardContent {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 18px;
+  font-weight: 400;
+  color:var(--primary-color);
+}
+
+/*  */
+.solutionsSectionC{
+  padding:5% 8%;
+  max-width: 1250px;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+
+    /* media Query */
+    @media (max-width:1230px) {
+      .left2{
+        max-width:  450px;
+      }
+      .right2{
+        max-width: none;
+        width: 50%;
+      }
+      .imageContainerR{
+        max-width: 600px;
+      }
+    
+      .textContentR{
+        max-width: 500px;
+      }
+    }
+    @media (max-width:1130px) {
+      .leftColumn {
+        max-width: 510px;
+      }
+      .rightColumn{
+        max-width: 400px;
+      }
+      .left2{
+        max-width: none;
+        width: 100%;
+      }
+      .right2{
+        width: 100%;
+        margin-top: 5%;
+      }
+      .section2{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .imageContainerR{
+        max-width: none;
+        width: 100%;
+      }
+      .textContentR{
+        max-width: none;
+        width: 100%;
+        margin-top: 5%;
+      }
+      .slideR{
+        flex-wrap: wrap-reverse !important;
+        padding: 0;
+      }
+    }
+    @media (max-width:1040px) {
+      .container{
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftColumn {
+        max-width: none;
+        width: 100% ;
+        margin-top: 10%;
+      }
+      .rightColumn{
+        width: 90%;
+        max-width: none;
+      }
+      .rightColumn2{
+        display: block;
+      }
+      .heading{
+        text-align: center;
+        margin-bottom: 5%;
+      }
+      .description{
+        text-align: center;
+      }
+      .description2{
+        text-align: center;
+      }
+ 
+       .secondSection{
+        padding-bottom: 0;
+       }
+       .container2{
+        flex-direction: column;
+      }
+      .section2lft{
+        width: 100%;
+        margin-top: 5%;
+      }
+      .section2ri8{
+        width: 100%;
+      }
+    }
+    
+    @media (max-width:1000px) {
+      .rightColumn2{
+        max-width: none;
+        width: 100%;
+      }
+      .leftColumn{
+        width: 100%;
+        margin-top: 5%;
+      }
+      .section2R{
+        flex-direction: column-reverse;
+      }
+      .card{
+        width: 100%;
+        max-width: none;
+        padding: 5%;
+      }
+      .imageContainer{
+        width: 100%;
+      }
+      .serveCardMain{
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+    }
+    
+    @media (max-width:900px){
+.card{
+  padding: 2%;
+}
+    }
+    @media (max-width:700px){
+      .imageContainer::after{
+        bottom: -10%;
+        right: -15px;
+      }
+      .rightColumn{
+          width: 100%
+        }
+        .serveCardMain{
+          grid-template-columns: repeat(2,1fr);
+          gap: 55px;
+        }
+        .serveH{
+          font-size: 40px;
+        }
+        .tech{
+          width: 150px;
+        }
+   
+    .smallButton{
+      margin-top:50px;
+    }
+    .rightSide{
+      width: 100%;
+    }
+    .statCardmain{
+      width: 100%;
+    }
+    .statCarddiv{
+      width: 100%;
+    }
+    .statCard{
+      width: 50%;
+    }
+    .slideR{
+      padding: 2rem 0;
+    }
+    .serveH{
+      font-size: 35px;
+    }
+    .heading1 ,.heading{
+      font-size: 35px;
+    }
+    .right2 h1{
+      font-size: 35px;
+    }
+    .section3>p{
+      padding: 0 5%;
+    }
+    .headingS{
+      font-size: 28px;
+    }
+    }
+    
+    @media (max-width:550px){
+    .statCard{
+      width: 100%;
+      padding: 1rem;
+    }
+    .statCarddiv{
+      flex-wrap: wrap;
+    }
+    }
+    @media (max-width:440px){
+    .statHeading{
+      font-size: 35px;
+    }.statText{
+      font-size: 18px;
+    }
+    .serveCardMain{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 55px;
+    }
+    .serveH{
+      padding: 0;
+      font-size: 30px;
+    }
+    .heading ,.heading1 ,.headingR{
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .mainB h1{
+      font-size: 30px;
+    }
+    .imageContainer{
+    padding: 0;
+    }
+    
+    
+    }
+    @media (max-width:360px){
+      .tech{
+        width: 200px;
+      }
+    }
+    
+    
