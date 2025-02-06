@@ -45,7 +45,7 @@ const Header = () => {
           <li><a href="/nexus-Dev">Home</a></li>
           <li><a href="/nexus-Dev">Services</a></li>
           <li><a href="/nexus-Dev">Portfolio</a></li>
-          <li><a href="/nexus-Dev">About us</a></li>
+          <li><a href="/nexus-Dev/about-us">About us</a></li>
         </ul>
       </nav>
 
