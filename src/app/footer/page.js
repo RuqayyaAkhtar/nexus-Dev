@@ -71,9 +71,9 @@ const Footer = () => {
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Company</h3>
               <ul>
-               <a href="#"> <li>About us</li></a>
+               <a href="/nexus-Dev/about-us"> <li>About us</li></a>
                <a href="#"> <li>Why us</li></a>
-               <a href="#"> <li>Contact us</li></a>
+               <a href="/nexus-Dev/contact-us"> <li>Contact us</li></a>
                <a href="#"> <li>Case Study</li></a>
                <a href="#"> <li>FAQs</li></a>
               </ul>
@@ -87,9 +87,9 @@ const Footer = () => {
           <p className={styles.fP}>© 2025 Nexus-Dev. All rights reserved.</p>
         <div className={styles.footerBottom2}>
           <div className={styles.termss}>
-            <a href="/nexus-Dev" >Privacy & Policy</a>
-            <a href="/nexus-Dev">GDPR</a>
-            <a href="/nexus-Dev">Terms & Conditions</a>
+            <a href="/nexus-Dev/privacy-policy" >Privacy & Policy</a>
+            <a href="/nexus-Dev/GDPR">GDPR</a>
+            <a href="/nexus-Dev/terms-conditions">Terms & Conditions</a>
           </div>
         </div>
       
