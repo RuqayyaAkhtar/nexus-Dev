@@ -74,8 +74,8 @@ const Footer = () => {
                <a href="/nexus-Dev/about-us"> <li>About us</li></a>
                <a href="#"> <li>Why us</li></a>
                <a href="/nexus-Dev/contact-us"> <li>Contact us</li></a>
-               <a href="#"> <li>Case Study</li></a>
-               <a href="#"> <li>FAQs</li></a>
+               <a href="/nexus-Dev/case-study"> <li>Case Study</li></a>
+               <a href="/nexus-Dev/faqs"> <li>FAQs</li></a>
               </ul>
             </div>
           </div>

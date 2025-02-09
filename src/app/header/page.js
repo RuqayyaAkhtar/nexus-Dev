@@ -43,15 +43,15 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li><a href="/nexus-Dev">Home</a></li>
-          <li><a href="/nexus-Dev">Services</a></li>
-          <li><a href="/nexus-Dev">Portfolio</a></li>
+          <li><a href="/nexus-Dev/our-services">Services</a></li>
+          <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
           <li><a href="/nexus-Dev/about-us">About us</a></li>
         </ul>
       </nav>
 
       <div className={styles.btnMainBar}>
         <button className={styles.demoBtn}>
-          <a href="/nexus-Dev" className={styles.bookDemoA}>Get in Touch</a>
+          <a href="/nexus-Dev/contact-us" className={styles.bookDemoA}>Get in Touch</a>
         </button>
         <a className={styles.menuLi}>
           <CiMenuBurger className={styles.menuIcon} onClick={toggleMenu} />
