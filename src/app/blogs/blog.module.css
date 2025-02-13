@@ -150,7 +150,7 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   width: 100%;
 }
 
@@ -181,10 +181,8 @@
 .blogCard {
   display: flex;
   align-items: center;
-  background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .blogImage {
@@ -234,12 +232,11 @@
   color: white !important;
 }
 
-/* Entries Info (Showing X-Y of Z entries) */
 .entriesInfo {
   font-size: 14px;
   color: #333;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 3%;
 }
 
 /* Bottom Pagination Container */
@@ -385,7 +382,19 @@
   .secondSection {
     padding-bottom: 0;
   }
-
+  .blogCard {
+ flex-direction: column;
+ padding-bottom:4%;
+  }
+  .blogImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .blogContent{
+    width:100%;
+  }
+  
 }
 
 @media (max-width:1000px) {
@@ -402,7 +411,13 @@
   .imageContainer {
     width: 100%;
   }
-
+  .categories{
+    flex-wrap: wrap;
+    margin-bottom:6%;
+  }
+  .entriesInfo{
+    margin-bottom: 5%;
+  }
 }
 
 
