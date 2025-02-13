@@ -43,6 +43,7 @@ const Header = () => {
       <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li><a href="/nexus-Dev">Home</a></li>
+          <li><a href="/nexus-Dev/industries">Industries</a></li>
           <li><a href="/nexus-Dev/our-services">Services</a></li>
           <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
           <li><a href="/nexus-Dev/about-us">About us</a></li>

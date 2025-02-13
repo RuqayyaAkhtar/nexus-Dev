@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Footer from '../footer/page';
 import Header from '../header/page';
 import styles from './terms.module.css';
-import heroImage from './images/Group 1197132642.png'
+import heroImage from './images/Group 1197132639.png'
 
 
 const TermsAndConditions = () => {

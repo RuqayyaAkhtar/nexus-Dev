@@ -16,15 +16,16 @@ const blogsData = [
     category: "Web Design",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image1
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -36,15 +37,16 @@ const blogsData = [
     category: "UX Research",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image1,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image2
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -56,15 +58,16 @@ const blogsData = [
     category: "Content Creation",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image2,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image3
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -76,15 +79,16 @@ const blogsData = [
     category: "Future",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image3,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image4
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -96,15 +100,16 @@ const blogsData = [
     category: "Meet Ups",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image4,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image5
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -116,15 +121,16 @@ const blogsData = [
     category: "Updates",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image1,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image2
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -136,15 +142,16 @@ const blogsData = [
     category: "Web Design",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image4,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image5
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -156,15 +163,16 @@ const blogsData = [
     category: "UX Research",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image1,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image2
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -176,15 +184,16 @@ const blogsData = [
     category: "Content Creation",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image2,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image3
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -196,15 +205,16 @@ const blogsData = [
     category: "Future",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image1
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   {
@@ -216,15 +226,16 @@ const blogsData = [
     category: "Meet Ups",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image1
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
   
@@ -237,15 +248,16 @@ const blogsData = [
     category: "Meet Ups",
     content: [
       {
-        heading: "Start with a Clear Product Understanding",
-        text: "Creating effective designs...",
-        image: "/images/blog1.jpg"
+        heading:"Start with a Clear Product Understanding",
+        text: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration.",
+        description1:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image: Image,
+        description:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        heading2: "Start with a Clear Product Understanding",
+        text2: "Creating effective designs for tech-savvy audiences, such as data scientists and software engineers, requires a careful balance between visual clarity, functionality, and creativity. While the complexity of the product must be communicated clearly, the interface also needs to feel intuitive and engaging. Success in such projects doesn’t just come from creativity; it’s rooted in strategic collaboration. ",
+        text3:"Zerve’s platform—a cloud-based Data Science IDE—allows code-centric data teams to safely collaborate while producing stable code. It’s a powerful tool, essentially doing for data scientists what Figma did for designers and developers. However, Zerve’s existing visual identity didn’t fully capture its innovative spirit or resonate with its highly technical audience, so it was due for a refresh. The challenge Zerve faced was ensuring that its complex functionality was easily understandable and visually appealing to its digital-native audience. This article dives into how the collaboration between BB Agency and Zerve unfolded and what we learned along the way, highlighting key lessons for designers tackling similar projects.",
+        image2: Image1
       },
-      {
-        heading: "User Research is Key",
-        text: "Understanding user behavior...",
-        image: "/images/blog2.jpg"
-      }
     ]
   },
 ];
