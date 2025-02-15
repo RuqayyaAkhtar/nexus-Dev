@@ -7,7 +7,7 @@
     max-width: 1250px;
     margin: auto;
     text-align: center;
-    padding: 5%;
+    padding: 2% 5% 5% 5%;
     background-color:white;
     overflow: hidden ; 
   }
@@ -81,7 +81,7 @@
   
   .role {
     font-size: 0.9rem;
-    color: var(--span-color);
+    color: #2d2d2d97;
     margin-bottom: 1rem;
     font-weight: 400;
   }

@@ -11,6 +11,33 @@ import { GoArrowUpRight } from "react-icons/go";
 
 
 const faqData = {
+  MobileApplication :[
+    {
+      question: "What is the role of a Business Consultant?",
+      answer:
+        "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
+    },
+    {
+      question: "What skills does a Business Consultant need?",
+      answer:
+        "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
+    },
+    {
+      question: "Produce say the ten moments parties?",
+      answer:
+        "Key skills include analytical thinking, excellent communication, and a strong grasp of both business operations and technology.",
+    },
+    {
+      question: "Simple innate summer fat appear basket his desire joy?",
+      answer:
+        "Key skills include analytical thinking, excellent communication, and a strong grasp of both business operations and technology.",
+    },
+    {
+      question: "Outward clothes promise at gravity do excited?",
+      answer:
+        "Key skills include analytical thinking, excellent communication, and a strong grasp of both business operations and technology.",
+    },
+  ],
     BusinessAnalyst: [
       {
         question: "The expense windows adapted sir. Wrong widen drawn.",
@@ -86,18 +113,6 @@ const faqData = {
           "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
       },
     ],
-    MobileApplication :[
-      {
-        question: "What is the role of a Business Consultant?",
-        answer:
-          "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
-      },
-      {
-        question: "What skills does a Business Consultant need?",
-        answer:
-          "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
-      },
-    ],
     UIDesigner:[
       {
         question: "What is the role of a Business Consultant?",
@@ -124,20 +139,19 @@ const faqData = {
     ],
   };
   const buttonDisplayNames = {
+    MobileApplication : "Mobile Application Development",
     BusinessAnalyst: "Business Analyst",
     SystemArchitect: "System Architect",
     BusinessConsultant: "Business Consultant",
     GraphicDesigner: "Graphic Designer",
     WebDevelopment: "Web Development",
-    MobileApplication : "Mobile Application Development",
     UIDesigner: "UI/UX Designer",
     DigitalMarketing: "Digital Marketing",
   };  
   
 
 const FAQS = () => {
-  // Default category set to "BusinessAnalyst"
-  const [activeCategory, setActiveCategory] = useState('BusinessAnalyst');
+  const [activeCategory, setActiveCategory] = useState('MobileApplication');
   // Set the first accordion active by default (index 0)
   const [openAccordionIndex, setOpenAccordionIndex] = useState(0);
 

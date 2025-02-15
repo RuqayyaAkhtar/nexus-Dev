@@ -117,19 +117,22 @@
 
 .buttonsContainer {
     margin:4% 0;
-    display: grid;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
     gap: 30px;
-  grid-template-columns: repeat(4, 1fr);
+
 }
 
 .button {
-  padding: 10px 0;
+  padding:10px 30px;
   border: 1px solid #3247469a  ;
   background-color: #f7f7f7;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease;
   border-radius: 30px;
-  font-size: 0.9rem;
+  font-size:14px;
   color: #324746bb  ;
 }
 
@@ -268,12 +271,6 @@ color: white;
         margin-top: 5%;
       }
     
-.buttonsContainer {
-    margin:4% 0;
-    display: grid;
-    gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-}
     }
     @media (max-width:1040px) {
       .container{
@@ -365,12 +362,6 @@ color: white;
     }
     
  
-@media (max-width: 600px) {
-    .buttonsContainer {
-        gap: 30px 10px;
-      grid-template-columns: repeat(2, 1fr);
-    }
-}
 @media (max-width: 650px) {
   
     .termsBox {
@@ -382,7 +373,20 @@ color: white;
     }
   }
     @media (max-width:440px){
-   
+      .buttonsContainer {
+        margin:4% 0;
+        gap: 30px;
+      /* grid-template-columns: repeat(1, 1fr); */
+      justify-content: center;
+      align-items: center;
+    }
+    .button{
+      width: 270px !important;
+      text-align: center;
+      margin: 0%;
+    }
+    }
+    @media (max-width:440px){
     .heading ,.heading1 ,.headingR{
       font-size: 30px;
       line-height: 40px;
