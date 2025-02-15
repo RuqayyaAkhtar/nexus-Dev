@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from './headerImages/logo22.png'; // Adjust path as per your setup
+import logo from './headerImages/logo22.png'; 
 import styles from '../page.module.css';
 import '../globals.css';
 import { CiMenuBurger } from "react-icons/ci";
@@ -68,15 +68,16 @@ const Header = () => {
             <ul className={styles.menuList}>
               <li><a href="/nexus-Dev">Home</a></li>
               <li><a href="/nexus-Dev/industries">Industries</a></li>
-              <li><a href="/nexus-Dev">Service</a></li>
-              <li><a href="/nexus-Dev">About us</a></li>
-              <li><a href="/nexus-Dev">Contact Us</a></li>
-              <li><a href="/nexus-Dev">Login</a></li>
-              <li><a href="/nexus-Dev/">Blogs</a></li>
-              <li><a href="/nexus-Dev/">Faqs</a></li>
+              <li><a href="/nexus-Dev/services">Service</a></li>
+              <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
+              <li><a href="/nexus-Dev/about-us">About us</a></li>
+              <li><a href="/nexus-Dev/blogs">Blogs</a></li>
+              <li><a href="/nexus-Dev/faqs">Faqs</a></li>
+              <li><a href="/nexus-Dev/health-care">Health Care</a></li>
+              <li><a href="/nexus-Dev/login">Login</a></li>
               <li>
                 <button className={styles.demoBtn2}>
-                  <a href="/nexus-Dev/" className={styles.text_light}>Get in Touch</a>
+                  <a href="/nexus-Dev/contact-us" className={styles.text_light}>Get in Touch</a>
                 </button>
               </li>
             </ul>
