@@ -1,0 +1,600 @@
+.heroSectionMain {
+    width: 100%;
+    background-color: var(--primary-color);
+  }
+  
+  .heroSection {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5% 10% 5%;
+    max-width: 1250px;
+    margin: auto;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1250px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .leftColumn {
+    flex: 1;
+    max-width: 580px;
+  }
+  
+  .heading {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 2% 0 5% 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #d9d9d9;
+    margin-bottom: 2rem;
+  }
+  
+  .description2 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #d9d9d9;
+    margin-bottom: 2rem;
+  }
+  
+  .description3 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #d9d9d9;
+  }
+  
+  .rightColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .imageContainer {
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .imageContainer::after {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    right: -30px;
+    height: 40%;
+    width: 30%;
+    border-radius: 20px;
+    background: linear-gradient(#FFFFFF33, #FFFFFF33);
+    backdrop-filter: blur(10px);
+  }
+  
+  .imageContainer::before {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    right: -10px;
+    height: 30%;
+    width: 20%;
+    border-radius: 50%;
+    background: linear-gradient(#FDB920, #FDB920);
+    backdrop-filter: blur(10px);
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .inf{
+    display: flex;
+  }
+  .inf span{
+    margin-left: 10px;
+  }
+
+
+  /* skills */
+     .sliderContainer {
+       position: relative;
+       width: 100%;
+       margin: 7% auto 0 auto;
+       height: max-content;
+     }
+     
+     .sliderContainerMain {
+       position: relative;
+       width: 100%;
+       margin: 0 auto;
+       overflow: hidden; 
+       z-index: 3;
+     }
+     
+     .slider {
+       display: flex;
+       transition: transform 0.5s ease-in-out;
+       position: relative;
+       padding: 5% 0;
+       z-index: 3;
+     }
+     
+     .slide {
+        display: flex;
+       /* flex: 0 0 100%;  */
+       text-align: center;
+       padding:1% 2%;
+       border-radius: 15px;
+       position: relative;
+       background: linear-gradient(to right,rgba(255, 255, 255, 0.101),rgba(255, 255, 255, 0.101));
+       backdrop-filter:blur(5px);
+       z-index: 10;
+       gap: 50px;
+     }
+
+     .image {
+       width: 60px;
+       height: 60px;
+     }
+     
+     /* Decorative Circles */
+     .circle {
+       position: absolute;
+       border-radius: 50%;
+       z-index: 1;
+     }
+     
+     .circleBottomLeft {
+       top: -20px;
+       left: -20px;
+       width: 100px;
+       height: 100px;
+       background-color: var(--secondary-color);
+     }
+
+
+  /* section2 */
+  .heroSectionMain2 {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .section2 {
+    background-color: white;
+    max-width: 1250px;
+    padding: 5%;
+    margin: auto;
+  }
+  
+  .titlee {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family: var(--font-family4);
+    margin: 1% 0 3% 0;
+    /* text-align: center; */
+    max-width: 900px !important;
+  }
+  .ImageDivv{
+    width: 100%;
+    margin-top: 3%;
+  }
+  .ImageDivv img{
+    width: 100%;
+    height: auto;
+  }
+  .ImageDivv2{
+ display: flex;
+ align-items: top;
+ justify-content: space-between;
+ gap: 50px;
+ margin-top: 4%;
+  }
+  .ImageDivv3{
+ display: flex;
+ align-items: top;
+ justify-content: space-between;
+ gap: 50px;
+ margin-top: 4%;
+  }
+  .ImageDivC{
+    width: 40%;
+  }
+  .ImageDivC img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .contentDivv{
+    width: 55%;
+    padding: 0 2% 0 0;
+  }
+  .contentDivv h1{
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-family: var(--font-family4);
+    margin: 0;
+  }
+  .listt{
+    margin-top: 4%;
+  }
+  .listt ul li p{
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    /* width: max-content; */
+    color: var(--primary-color);
+  }
+
+  .listt ul li small{
+  font-size: 16px;
+  }
+  .listt ul li{
+    margin-bottom: 4%;
+    list-style:disc !important;
+    margin-left: 20px;
+    color: var(--primary-color);
+  }
+/*  */
+.titlee2{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family: var(--font-family4);
+    margin: 1% auto 3% auto;
+    text-align: center;
+    max-width: 900px !important;
+  }
+
+  /*  */
+  
+/* bottomfaq */
+.bottomFaq{
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4% 0%;
+  border-radius: 10px;
+}
+.top{
+color: white;
+}
+.top h1{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: var(--font-family4);
+  text-align: center;
+}
+.top p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font-family4);
+  margin-top: 4%;
+  text-align: center;
+}
+.bottom{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.demoBtn {
+  background-color:transparent;
+  border: 1px solid var(--secondary-color);
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  transition: all .3s;
+  cursor: pointer;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.demoBtn:hover{
+  background-color:var(--secondary-color);
+  color: white;
+}
+.iconss{
+  margin-left: 8px;
+}
+
+
+
+
+  /* Your existing CSS ... */
+  
+  @media (max-width:1040px) {
+    .sliderContainer{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1150px) {
+    .projectCard {
+      flex-direction: column; 
+      align-items: center;
+      gap: 50px; 
+    }
+  
+    .projectImage,
+    .projectContent {
+      width: 100%;
+    }
+    .projectImage {
+      order: 1;
+      margin-bottom: 20px; 
+    }
+    
+    .projectContent {
+      order: 2;
+    }
+    .projectDescription{
+      margin: 2% 0;
+    }
+    .projectDescription2{
+      margin: 2% 0;
+    }
+  
+  }
+  
+  /* media Query */
+  
+  @media (max-width:1200px) {}
+  
+  @media (max-width:1130px) {
+    .leftColumn {
+      max-width: 510px;
+    }
+  
+    .rightColumn {
+      max-width: 500px;
+    }
+  
+    .section2 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .textContentR {
+      max-width: none;
+      width: 100%;
+      margin-top: 5%;
+    }
+    .paginationContainer {
+      width: 70%;
+    }
+    .ImageDivv2{
+    flex-direction: column-reverse ;
+    gap: 30px;
+  }
+    .ImageDivv3{
+    flex-direction: column ;
+    gap: 30px;
+  }
+  .contentDivv{
+    width: 100%;
+  }
+  .ImageDivC{
+    width: 100%;
+  }
+}
+  
+  @media (max-width:1040px) {
+    .container {
+      flex-wrap: wrap-reverse;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .leftColumn {
+      max-width: none;
+      width: 100%;
+      margin-top: 10%;
+    }
+  
+    .rightColumn {
+      width: 90%;
+      max-width: none;
+    }
+  
+    .heading {
+      text-align: center;
+      margin-bottom: 5%;
+    }
+  
+    .description {
+      text-align: center;
+    }
+  
+    .description2 {
+      text-align: center;
+    }
+  
+    .description3 {
+      text-align: center;
+    }
+  
+    .secondSection {
+      padding-bottom: 0;
+    }
+  
+  }
+  
+  @media (max-width:1000px) {
+    .rightColumn2 {
+      max-width: none;
+      width: 100%;
+    }
+  
+    .leftColumn {
+      width: 100%;
+      margin-top: 5%;
+    }
+  
+    .imageContainer {
+      width: 100%;
+    }
+  
+    .subTitle1 {
+      margin: 4% 0;
+    }
+    .paginationContainer {
+      width: 80%;
+    }
+  }
+  
+  
+  @media (max-width:700px) {
+    .imageContainer::after {
+      bottom: -10%;
+      right: -15px;
+    }
+  
+    .rightColumn {
+      width: 100%
+    }
+  
+    .rightSide {
+      width: 100%;
+    }
+  
+    .heading1,
+    .heading {
+      font-size: 35px;
+    }
+    .paginationContainer {
+      width: 90%;
+      padding: 0;
+    }
+    
+  .bottomFaq h1{
+    font-size: 30px;
+    }
+    .bottom{
+      margin-top:6%
+    }
+  
+  }
+  
+  
+  @media (max-width: 650px) {
+  
+    .termsBox {
+      padding: 1rem;
+    }
+  
+    .titlee {
+      font-size: 30px;
+    }
+    .titlee2 {
+      font-size: 30px;
+    }
+    .projectCard {
+      gap: 20px; 
+      padding: 20px 0;
+    }
+    .projectTitle {
+      font-size: 30px;
+      margin: 1% 0 4% 0;
+    }
+    .projectDescription {
+      font-size: 20px;
+      margin: 1% 0 4% 0;
+    }
+    .projectDescription2 {
+      font-size: 16px;
+      margin: 1% 0 4% 0;
+    }
+    .paginationContainer {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .resultsPerPage {
+      font-size: 12px;
+      width: 100%;
+      margin-bottom: 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pagination {
+      width: 100%;
+      justify-content: center;
+    }
+    .pageButton {
+      font-size: 12px;
+      height: 25px;
+      width: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  .doubleArrow,
+  .singleArrow {
+    font-size: 17px;
+    height: 25px;
+    width: max-content;
+  }
+  .select {
+    height: 25px;
+    width: 50px;
+    font-size: 11px;
+  }
+  .slide {
+   gap: 30px;
+ }
+  
+  }
+  
+  @media (max-width:440px) {
+  
+    .heading,
+    .heading1,
+    .headingR {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    .imageContainer {
+      padding: 0;
+    }
+  
+    .subTitle1 {
+      margin: 6% 0;
+    }
+    .image {
+      width: 40px;
+      height: 40px;
+    }
+    .circleBottomLeft{
+      height:80px;
+      width:80px;
+      left: -10px;
+    }
+    .contentDivv h1{
+      font-size: 30px;
+    }
+  }
