@@ -68,7 +68,7 @@ const Header = () => {
             <ul className={styles.menuList}>
               <li><a href="/nexus-Dev">Home</a></li>
               <li><a href="/nexus-Dev/industries">Industries</a></li>
-              <li><a href="/nexus-Dev/services">Service</a></li>
+              <li><a href="/nexus-Dev/our-services">Service</a></li>
               <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
               <li><a href="/nexus-Dev/about-us">About us</a></li>
               <li><a href="/nexus-Dev/blogs">Blogs</a></li>

@@ -32,7 +32,7 @@ const Footer = () => {
             Design amazing digital experiences that create more happy in the world.
             </p>
             <div className={styles.contact}>
-             <a href="#"> <p><FaPhoneAlt />+92300 1265821</p></a>
+             <a href="tel:+92300 1265821"> <p><FaPhoneAlt />+92300 1265821</p></a>
              <a href="#"> <p><FaEnvelope />example@gmail.com</p></a>
             </div>
           </div>

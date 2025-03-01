@@ -598,7 +598,7 @@ background-color: var(--primary-color);
   align-items: top;
   justify-content: center;
   gap: 2rem;
-  padding: 2rem;
+  padding: 2rem 0;
   transition: transform .3s ease-in-out, opacity .3s ease-in-out;
 }
 
