@@ -1,0 +1,105 @@
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* The horizontal track that slides left/right */
+  .sliderTrack {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Each slide container */
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Image wrapper for potential overlay */
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlayCount {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    z-index: 2;
+  }
+  
+  /* The actual image */
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  /* Title & description (optional) */
+  .title {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .description {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+    margin-top: 0.3rem;
+  }
+  
+  /* Navigation buttons */
+  .prevBtn,
+  .nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    z-index: 5;
+    border-radius: 4px;
+  }
+  .prevBtn { left: 10px; }
+  .nextBtn { right: 10px; }
+  .prevBtn:hover,
+  .nextBtn:hover {
+    background: rgba(0,0,0,0.7);
+  }
+  
+  /* Dots for bottom slider */
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 0.8rem;
+  }
+  .dot {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .dot:hover {
+    background: #bbb;
+  }
+  .activeDot {
+    background: #ffaf2a; /* or your brand color */
+  }
+  

@@ -13,6 +13,7 @@ import ContactForm from '/src/app/industries/contactForm'
 import { TiGroupOutline } from "react-icons/ti";
 import { GoArrowUpRight } from "react-icons/go";
 import ProjectSlider from "./projectSlider"; // or wherever your file is
+import BrandSlider from "./brandIdentity"; // or wherever your file is
 
 
 
@@ -124,6 +125,37 @@ export default function ServiceDetails() {
                 </div>
               ))}
             </section>
+            {/* brand identity data section with two sliders */}
+            <section className={styles.solutionsSectionC}>
+              <h2 className={styles.headingS}>Brand Identity Design</h2>
+              <p className={styles.subheadingS}>
+                Our Brand Identity Design service focuses on creating a unique and cohesive
+                visual representation of your brand. We design custom logos, color schemes,
+                typography, and brand guidelines to ensure consistency across all touchpoints.
+              </p>
+
+              {/* Top Slider: 3 images, NO dots/arrows/counter */}
+              <div className={styles.PSliderContainer}>
+                <ProjectSlider
+                  slides={service.brandIdentityData.topSlider}  // e.g., 5 items
+                  slidesToShow={3}                              // show 3 side by side
+                  showDots={false}                              // no dots
+                  showArrows={false}                            // no arrows
+                  overlayCount={false}                          // no "1/5" overlay
+                />
+              </div>
+
+              {/* Bottom Slider: 1 image, dots, arrows, overlay counter */}
+              <div className={styles.PSliderContainer}>
+                <ProjectSlider
+                  slides={service.brandIdentityData.bottomSlider} // e.g., 4 items
+                  slidesToShow={1}                                // show 1 at a time
+                  showDots={true}                                 // dots on bottom
+                  showArrows={true}                               // next/prev arrows
+                  overlayCount={true}                             // "1/4" overlay on image
+                />
+              </div>
+            </section>
 
             {/* ========== Zigzag Cards with Slider ========== */}
             <section className={styles.cardsSection}>
@@ -228,12 +260,16 @@ export default function ServiceDetails() {
               Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.
             </p>
             <div className={styles.PSliderContainer}>
-              {/* Only render slider if the data is present */}
-              {service.ProjectSliderData && (
+              {service?.ProjectSliderData ? (
+                // If ProjectSliderData is available, show it
                 <ProjectSlider slides={service.ProjectSliderData} />
+              ) : (
+                // Otherwise, show ProjectSliderThreeData
+                <ProjectSlider slides={service.ProjectSliderThreeData} />
               )}
             </div>
           </section>
+
 
           {/*  */}
           <ContactForm />
