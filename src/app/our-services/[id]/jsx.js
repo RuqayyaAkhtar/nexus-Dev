@@ -13,7 +13,8 @@ import ContactForm from '/src/app/industries/contactForm'
 import { TiGroupOutline } from "react-icons/ti";
 import { GoArrowUpRight } from "react-icons/go";
 import ProjectSlider from "./projectSlider"; // or wherever your file is
-import BrandSlider from "./brandIdentity"; // or wherever your file is
+import BrandSliderTop from "./brandIdentityTop"; // or wherever your file is
+import BrandSliderBottom from "./brandIdentitybottom"; // or wherever your file is
 
 
 
@@ -126,41 +127,11 @@ export default function ServiceDetails() {
               ))}
             </section>
             {/* brand identity data section with two sliders */}
-            <section className={styles.solutionsSectionC}>
-              <h2 className={styles.headingS}>Brand Identity Design</h2>
-              <p className={styles.subheadingS}>
-                Our Brand Identity Design service focuses on creating a unique and cohesive
-                visual representation of your brand. We design custom logos, color schemes,
-                typography, and brand guidelines to ensure consistency across all touchpoints.
-              </p>
-
-              {/* Top Slider: 3 images, NO dots/arrows/counter */}
-              <div className={styles.PSliderContainer}>
-                <ProjectSlider
-                  slides={service.brandIdentityData.topSlider}  // e.g., 5 items
-                  slidesToShow={3}                              // show 3 side by side
-                  showDots={false}                              // no dots
-                  showArrows={false}                            // no arrows
-                  overlayCount={false}                          // no "1/5" overlay
-                />
-              </div>
-
-              {/* Bottom Slider: 1 image, dots, arrows, overlay counter */}
-              <div className={styles.PSliderContainer}>
-                <ProjectSlider
-                  slides={service.brandIdentityData.bottomSlider} // e.g., 4 items
-                  slidesToShow={1}                                // show 1 at a time
-                  showDots={true}                                 // dots on bottom
-                  showArrows={true}                               // next/prev arrows
-                  overlayCount={true}                             // "1/4" overlay on image
-                />
-              </div>
-            </section>
+        
 
             {/* ========== Zigzag Cards with Slider ========== */}
             <section className={styles.cardsSection}>
-              {service.cards &&
-                service.cards.map((section, index) => {
+              {service.cards && service.cards.map((section, index) => {
                   // Render header section if available
                   if (section.heading1 && section.description1) {
                     return (
@@ -170,6 +141,7 @@ export default function ServiceDetails() {
                       </div>
                     );
                   }
+                  
                   // Render individual card items if section.card exists
                   if (section.card && Array.isArray(section.card)) {
                     return section.card.map((cardItem, cardIndex) => (

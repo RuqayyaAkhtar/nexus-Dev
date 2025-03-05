@@ -42,8 +42,10 @@ import ProjectSliderImage7 from './mobileApp/Frame 1000004278 (1).png'
 // graphic.....................
 import bannerImage4 from './graphicDesign/Group 1197132400 (1).png'
 import  sectionImage4 from './graphicDesign/Group 1197132625 (1).png'
-import sliderImage15 from './mobileApp/image 81.png'
-import sliderImage16 from './mobileApp/iPhone 13 Pro-1.png'
+import sliderImage15 from './graphicDesign/iPhone 13 Pro.png'
+import sliderImage16 from './graphicDesign/Brown and Grey Clean Paper Box Mockup Instagram Post 1.png'
+import sliderImage17 from './graphicDesign/image 74.png'
+import sliderImage18 from './graphicDesign/image 75.png'
 import brandSliderT1 from './graphicDesign/Black and Blue Initials Creative Logo 1.png'
 import brandSliderT2 from './graphicDesign/Colorful Modern Infinity Technology Free Logo 1.png'
 import brandSliderB1 from './graphicDesign/Brown Modern New Brand Fashion Banner (1) 1.png'
@@ -810,38 +812,38 @@ const servicesData = [
             {
               text: [
                 {
-                  title: "Front-End Development",
+                  title: "UI/UX Design for Websites & Apps",
                   bulletPoints: [
-                    "Reinsuring websites adapt seamlessly to all devices and screen sizes for an optimal user experience.",
-                    " Implementing best practices to reduce load times and enhance website speed.",
-                    "Testing and ensuring functionality across multiple browsers like Chrome, Firefox, Safari, and Edge.",
+                    "User Interface (UI) Design: Crafting beautiful, functional websites and apps.",
+                    " User Experience (UX) Design: Focused on creating seamless, intuitive navigation.",
+                    "Wireframing & Prototyping: Laying out the structure and flow of your website or application.",
                     "Establish architecture governance frameworks.",
                   ],
                 }
               ],
-              images: [sliderImage8, sliderImage9], // or any images you want in the slider
+              images: [sliderImage15, sliderImage16], // or any images you want in the slider
             },
             {
               text:[
                 {
-                  title: "Solution Architect",
+                  title: "Packaging Design",
                   bulletPoints: [
-                    "Bridge the gap between technical and business teams. ",
-                    " Design system components for specific projects or solutions. ",
+                    "Product Packaging: Creating eye-catching designs that make your product stand out.",
+                    "Labels & Tags: Custom designs that align with your brand and catch the consumer's eye.",
                     "Address scalability, performance, and integration needs.",
                     "Document and define technical requirements.",
                   ],
   
                 }
               ],
-              images: [sliderImage9, sliderImage10],
+              images: [sliderImage16, sliderImage17],
             },
             {
               text:[
                 {
-                  title: "Technical Architect",
+                  title: "Illustration & Custom Artwork",
                   bulletPoints: [
-                    "Develop technical blueprints for systems and applications.",
+                    "Custom Illustrations: Unique, hand-drawn or digital artwork to enhance your brand or message.",
                      "Collaborate closely with development teams to ensure execution.",
                       "Optimize software, hardware, and network configurations.",
                        "Troubleshoot and resolve technical issues during implementation. ",
@@ -850,12 +852,12 @@ const servicesData = [
   
                 }
               ],
-              images: [sliderImage10,sliderImage8],
+              images: [sliderImage17,sliderImage18],
             },
             {
               text:[
                 {
-                  title: "Infrastructure Architect",
+                  title: "Print Design",
                   bulletPoints: [
                     "Design the backbone infrastructure, including servers, networks, and storage.",
                      "Plan for disaster recovery and high availability." ,
@@ -865,22 +867,7 @@ const servicesData = [
   
                 }
               ],
-              images: [sliderImage11, sliderImage10],
-            },
-            {
-              text:[
-                {
-                  title: "Artificial Intelligence (AI) Architect",
-                  bulletPoints: [
-                    "Build scalable AI solutions and frameworks.",
-                    " Work with data scientists to deploy AI models. ",
-                     "Integrate AI systems with existing applications. ",
-                    " Ensure ethical and efficient AI practices."
-                  ],
-  
-                }
-              ],
-              images: [sliderImage12,sliderImage11],
+              images: [sliderImage18, sliderImage17],
             },
           ]
         },
@@ -943,18 +930,18 @@ const servicesData = [
   
    ProjectSliderData : [
     {
-      image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image:ProjectSliderImage1,
+      image2:ProjectSliderImage2
     },
     {
-      image:ProjectSliderImage3,
-      image2:ProjectSliderImage4,
+      image:ProjectSliderImage1,
+      image2:ProjectSliderImage2,
     },
     {
-      image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image:ProjectSliderImage1,
+      image2:ProjectSliderImage2
     },
-  ],
+  ],  
   // .......................................
 
 // Inside your servicesData object for a particular service:
@@ -990,6 +977,30 @@ brandIdentityData: {
       description: "Building stunning and effective websites.",
       image:brandSliderT1,
     },
+    {
+      id: 6,
+      title: "Website Design",
+      description: "Building stunning and effective websites.",
+      image:brandSliderT2,
+    },
+    {
+      id: 7,
+      title: "Website Design",
+      description: "Building stunning and effective websites.",
+      image:brandSliderT1,
+    },
+    {
+      id: 8,
+      title: "Website Design",
+      description: "Building stunning and effective websites.",
+      image:brandSliderT2,
+    },
+    {
+      id: 9,
+      title: "Website Design",
+      description: "Building stunning and effective websites.",
+      image:brandSliderT1,
+    },
   ],
   bottomSlider: [
     {
@@ -1008,13 +1019,19 @@ brandIdentityData: {
       id: 3,
       title: "Corporate Identity",
       description: "Building a strong corporate identity for your company.",
-      image: "/images/corporate-identity.jpg",
+      image: brandSliderB1,
     },
     {
       id: 4,
       title: "Personal Branding",
       description: "Creating a brand around your personal identity.",
-      image: "/images/personal-branding.jpg",
+      image: brandSliderB1,
+    },
+    {
+      id: 4,
+      title: "Personal Branding",
+      description: "Creating a brand around your personal identity.",
+      image: brandSliderB1,
     },
   ],
 },
