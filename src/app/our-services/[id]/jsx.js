@@ -127,59 +127,59 @@ export default function ServiceDetails() {
               ))}
             </section>
             {/* brand identity data section with two sliders */}
-            {service.brandIdentityData && (
-  <section className={styles.solutionsSectionC}>
-    <h2 className={styles.headingS}>Brand Identity Design</h2>
-    <p className={styles.subheadingS}>
-      Our Brand Identity Design service focuses on creating a unique and cohesive 
-      visual representation of your brand. We design custom logos, color schemes, 
-      typography, and brand guidelines to ensure consistency across all touchpoints.
-    </p>
+            {service?.brandIdentityData && (
+              <section className={styles.solutionsSectionC}>
+                <h2 className={styles.headingS}>Brand Identity Design</h2>
+                <p className={styles.subheadingS}>
+                  Our Brand Identity Design service focuses on creating a unique and cohesive
+                  visual representation of your brand. We design custom logos, color schemes,
+                  typography, and brand guidelines to ensure consistency across all touchpoints.
+                </p>
 
-    {/* Top Slider: 3 images side by side, no dots/arrows/counter */}
-    {service.brandIdentityData.topSlider && (
-      <div className={styles.PSliderContainer}>
-        <BrandSliderTop slides={service.brandIdentityData.topSlider} />
-      </div>
-    )}
+                {/* Top Slider: 3 images side by side, no dots/arrows/counter */}
+                {service.brandIdentityData.topSlider && (
+                  <div className={styles.PSliderContainer}>
+                    <BrandSliderTop slides={service.brandIdentityData.topSlider} />
+                  </div>
+                )}
 
-    {/* Bottom Slider: 1 image at a time with dots, arrows, and overlay counter */}
-    {service.brandIdentityData.bottomSlider && (
-      <div className={styles.PSliderContainer}>
-        <BrandSliderBottom slides={service.brandIdentityData.bottomSlider} />
-      </div>
-    )}
-  </section>
-)}
+                {/* Bottom Slider: 1 image at a time with dots, arrows, and overlay counter */}
+                {service.brandIdentityData.bottomSlider && (
+                  <div className={styles.PSliderContainer}>
+                    <BrandSliderBottom slides={service.brandIdentityData.bottomSlider} />
+                  </div>
+                )}
+              </section>
+            )}
 
 
             {/* ========== Zigzag Cards with Slider ========== */}
             <section className={styles.cardsSection}>
               {service.cards && service.cards.map((section, index) => {
-                  // Render header section if available
-                  if (section.heading1 && section.description1) {
-                    return (
-                      <div key={`header-${index}`} className={styles.cardsHeader}>
-                        <h1>{section.heading1}</h1>
-                        <p>{section.description1}</p>
-                      </div>
-                    );
-                  }
-                  
-                  // Render individual card items if section.card exists
-                  if (section.card && Array.isArray(section.card)) {
-                    return section.card.map((cardItem, cardIndex) => (
-                      <ZigzagCard
-                        card={cardItem}
-                        index={cardIndex}
-                        key={`card-${cardIndex}`}
-                      />
+                // Render header section if available
+                if (section.heading1 && section.description1) {
+                  return (
+                    <div key={`header-${index}`} className={styles.cardsHeader}>
+                      <h1>{section.heading1}</h1>
+                      <p>{section.description1}</p>
+                    </div>
+                  );
+                }
 
-                    ));
-                  }
+                // Render individual card items if section.card exists
+                if (section.card && Array.isArray(section.card)) {
+                  return section.card.map((cardItem, cardIndex) => (
+                    <ZigzagCard
+                      card={cardItem}
+                      index={cardIndex}
+                      key={`card-${cardIndex}`}
+                    />
 
-                  return null;
-                })}
+                  ));
+                }
+
+                return null;
+              })}
             </section>
           </div>
 
@@ -258,10 +258,10 @@ export default function ServiceDetails() {
             <div className={styles.PSliderContainer}>
               {service?.ProjectSliderData ? (
                 // If ProjectSliderData is available, show it
-                <ProjectSlider slides={service.ProjectSliderData} />
+                <ProjectSlider slides={service?.ProjectSliderData} />
               ) : (
                 // Otherwise, show ProjectSliderThreeData
-                <ProjectSlider slides={service.ProjectSliderThreeData} />
+                <ProjectSlider slides={service?.ProjectSliderThreeData} />
               )}
             </div>
           </section>
