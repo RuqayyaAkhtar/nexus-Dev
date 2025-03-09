@@ -33,9 +33,9 @@ const TopSlider = ({ slides = [] }) => {
         className={styles.topSliderTrack}
         style={{
           display: "flex",
-          width: `${totalPages * 100}%`, // Only required slides take space
+          width: `${totalPages * 100}%`, 
           transform: `translateX(-${currentPage * (100 / totalPages)}%)`,
-          transition: "transform 0.7s ease-in-out", // Smooth transition
+          transition: "transform 0.7s ease-in-out", 
         }}
       >
      
@@ -43,7 +43,7 @@ const TopSlider = ({ slides = [] }) => {
           <div
             key={index}
             className={styles.topSlide}
-            style={{ width: `${100 / slidesToShow}%` }} // Equal space per slide
+            style={{ width: `${100 / slidesToShow}%` }} 
           >
             <div className={styles.topImageWrapper}>
               <Image

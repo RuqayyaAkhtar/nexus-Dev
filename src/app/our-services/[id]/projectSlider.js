@@ -1,16 +1,16 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import styles from "./services-details.module.css"; // adjust the path as needed
+import styles from "./services-details.module.css"; 
 
 export default function ProjectSlider({ slides = [] }) {
-  // Determine if we're using a three-card slider by checking if the first slide has image3
+  
   const isThreeCard = slides && slides[0] && slides[0].image3 ? true : false;
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Auto-advance the slider every 6000ms (6 seconds)
+  
   useEffect(() => {
-    // If slides is empty, return early
+  
     if (!slides || slides.length === 0) return;
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
@@ -18,9 +18,8 @@ export default function ProjectSlider({ slides = [] }) {
       );
     }, 6000);
     return () => clearInterval(interval);
-  }, [slides?.length]); // Use optional chaining here
+  }, [slides?.length]);
 
-  // Handle dot click to manually jump to a slide
   const handleDotClick = (index) => {
     setCurrentIndex(index);
   };
@@ -36,7 +35,7 @@ export default function ProjectSlider({ slides = [] }) {
             <div
               key={index}
               className={styles.slide}
-              // Use grid layout: 2 columns if two-card slider; 3 if three-card slider.
+              
               style={{
                 display: "grid",
                 gridTemplateColumns: isThreeCard ? "1fr 1fr 1fr" : "1fr 1fr",

@@ -5,20 +5,20 @@ import styles from "./services-details.module.css";
 import Image from "next/image";
 import Header from "@/app/header/page";
 import Footer from "@/app/footer/page";
-import servicesData from "../data"; // Your data.js
+import servicesData from "../data"; 
 import { BsArrowLeft } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import StackUsed from '../stack'
 import ContactForm from '/src/app/industries/contactForm'
 import { TiGroupOutline } from "react-icons/ti";
 import { GoArrowUpRight } from "react-icons/go";
-import ProjectSlider from "./projectSlider"; // or wherever your file is
-import BrandSliderTop from "./brandIdentityTop"; // or wherever your file is
-import BrandSliderBottom from "./brandIdentitybottom"; // or wherever your file is
+import ProjectSlider from "./projectSlider"; 
+import BrandSliderTop from "./brandIdentityTop"; 
+import BrandSliderBottom from "./brandIdentitybottom"; 
 
 
 
-// The same categories you use on Services page:
+
 const categories = [
   "All",
   "Mobile Application Development",
@@ -35,7 +35,7 @@ export default function ServiceDetails() {
   const { id } = useParams();
   const router = useRouter();
 
-  // Find the current service by id
+  
   const service = servicesData.find((item) => item.id === Number(id));
   if (!service) {
     return <p className={styles.notFound}>Service not found</p>;
@@ -44,10 +44,10 @@ export default function ServiceDetails() {
   // Handle category button clicks
   const handleCategoryClick = (category) => {
     if (category === "All") {
-      // If user clicks "All", navigate back to main services page
+  
       router.push("/our-services");
     } else {
-      // Otherwise, find the service that matches this category
+     
       const matchedService = servicesData.find(
         (item) => item.category === category
       );
@@ -143,7 +143,6 @@ export default function ServiceDetails() {
                   </div>
                 )}
 
-                {/* Bottom Slider: 1 image at a time with dots, arrows, and overlay counter */}
                 {service.brandIdentityData.bottomSlider && (
                   <div className={styles.PSliderContainer}>
                     <BrandSliderBottom slides={service.brandIdentityData.bottomSlider} />
@@ -156,7 +155,6 @@ export default function ServiceDetails() {
             {/* ========== Zigzag Cards with Slider ========== */}
             <section className={styles.cardsSection}>
               {service.cards && service.cards.map((section, index) => {
-                // Render header section if available
                 if (section.heading1 && section.description1) {
                   return (
                     <div key={`header-${index}`} className={styles.cardsHeader}>
@@ -166,7 +164,6 @@ export default function ServiceDetails() {
                   );
                 }
 
-                // Render individual card items if section.card exists
                 if (section.card && Array.isArray(section.card)) {
                   return section.card.map((cardItem, cardIndex) => (
                     <ZigzagCard
@@ -257,10 +254,8 @@ export default function ServiceDetails() {
             </p>
             <div className={styles.PSliderContainer}>
               {service?.ProjectSliderData ? (
-                // If ProjectSliderData is available, show it
                 <ProjectSlider slides={service?.ProjectSliderData} />
               ) : (
-                // Otherwise, show ProjectSliderThreeData
                 <ProjectSlider slides={service?.ProjectSliderThreeData} />
               )}
             </div>
@@ -288,7 +283,6 @@ function ZigzagCard({ card, index }) {
     setCurrentSlide((prev) => (prev - 1 + card.images.length) % card.images.length);
   };
 
-  // Determine zigzag layout based on index (even = normal, odd = reverse)
   const isEven = index % 2 === 0;
 
   return (
@@ -300,7 +294,6 @@ function ZigzagCard({ card, index }) {
         {/* ====== Content Section (Heading, Bullet List, Button) ====== */}
         <div className={styles.contentDivv}>
           {card.text ? (
-            // Render for cards that use the 'text' array
             card.text.map((textItem, textIndex) => (
               <React.Fragment key={textIndex}>
                 <h1>{textItem.title}</h1>
@@ -314,7 +307,6 @@ function ZigzagCard({ card, index }) {
               </React.Fragment>
             ))
           ) : (
-            // Fallback: if no 'text' array, render title/description (if available)
             <>
               {card.title && <h1>{card.title}</h1>}
               {card.description && (

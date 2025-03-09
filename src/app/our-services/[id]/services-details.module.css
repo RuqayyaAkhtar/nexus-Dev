@@ -88,8 +88,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
+  max-width: 500px;
   position: relative;
+  /* border: 1px solid ; */
 }
 
 .imageContainer {
@@ -190,7 +191,7 @@
   margin-top: 4%;
 }
 .processleft{
-  width: 30%;
+  width: 45%;
   position: relative;
   /* border: 2px solid green; */
   display: flex;
@@ -203,6 +204,7 @@
   height: auto;
   position: absolute;
   top: calc(50% - 35%);
+  border: 1px solid;
 }
 
 .processC{
@@ -214,11 +216,11 @@
 .processImage{
   /* border: 1px solid red; */
   z-index:2;
-  left:10% !important;
+  left:0;
 }
 
 .processright{
-  width:60%;
+  width:50%;
 }
 
 .cardP{

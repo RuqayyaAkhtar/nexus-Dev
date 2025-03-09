@@ -29,7 +29,6 @@ const categories = [
 const ServicesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  // Filter blogs based on the selected category
   const filteredBlogs =
     selectedCategory === "All"
       ? servicesData
@@ -109,7 +108,6 @@ const ServicesPage = () => {
                   </div>
                 ))}
               </div>
-              {/* Pagination removed */}
             </div>
           </div>
           {/*  */}

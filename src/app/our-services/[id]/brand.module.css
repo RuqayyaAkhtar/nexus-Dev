@@ -14,7 +14,7 @@
     margin: 2% 0;
     text-align: left; 
   }
-  /* The horizontal track that slides left/right */
+
   .sliderTrack {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -29,7 +29,7 @@
     box-sizing: border-box;
   }
   
-  /* Image wrapper for potential overlay */
+ 
   .imageWrapper {
     position: relative;
     width: 100%;
@@ -47,7 +47,7 @@
     z-index: 2;
   }
   
-  /* The actual image */
+
   .image {
     width: 100%;
     height: auto;
@@ -55,7 +55,7 @@
     border-radius: 6px;
   }
   
-  /* Title & description (optional) */
+ 
   .title {
     margin-top: 0.5rem;
     font-size: 1rem;
@@ -108,7 +108,7 @@
     background: #bbb;
   }
   .activeDot {
-    background: #ffaf2a; /* or your brand color */
+    background: #ffaf2a; 
   }
 /* //////////////////////// */
 
@@ -235,11 +235,11 @@
 .topSliderPage {
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Evenly space the 3 slides */
+  justify-content: space-between; 
 }
 
 .topSlide {
-  width: calc(100% / 3); /* Each slide takes one-third of the page */
+  width: calc(100% / 3); 
   padding: 0.5rem;
   box-sizing: border-box;
   text-align: center;
