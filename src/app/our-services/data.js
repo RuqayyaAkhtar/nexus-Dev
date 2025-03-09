@@ -73,7 +73,6 @@ const servicesData = [
           image: sectionImage2
         },
       ],
-      // Existing content array (optional):
       work: [
         {
           heading: "Process: How We Work Together in 5 Steps",
@@ -105,7 +104,6 @@ const servicesData = [
           // ...
         },
       ],
-      // NEW: cards array for the detail page, each with multiple images:
       cards: [
         {
           heading1: "Services of a Web Development",
@@ -125,7 +123,7 @@ const servicesData = [
                   ],
                 }
               ],
-              images: [sliderImage8, sliderImage9], // or any images you want in the slider
+              images: [sliderImage8, sliderImage9],
             },
             {
               text:[
@@ -310,7 +308,6 @@ const servicesData = [
           image: sectionImage3
         },
       ],
-      // Existing content array (optional):
       work: [
         {
           heading: "Process: How We Work Together in 5 Steps",
@@ -342,7 +339,7 @@ const servicesData = [
           // ...
         },
       ],
-      // NEW: cards array for the detail page, each with multiple images:
+      
       cards: [
         {
           heading1: "Services of a Mobile Application Development",
@@ -362,7 +359,7 @@ const servicesData = [
                   ],
                 }
               ],
-              images: [sliderImage13, sliderImage14], // or any images you want in the slider
+              images: [sliderImage13, sliderImage14], 
             },
             {
               text:[
@@ -527,7 +524,7 @@ const servicesData = [
         image: sectionImage1
       },
     ],
-    // Existing content array (optional):
+   
     work: [
       {
         heading: "Process: How We Work Together in 5 Steps",
@@ -560,7 +557,7 @@ const servicesData = [
         // ...
       },
     ],
-    // NEW: cards array for the detail page, each with multiple images:
+    
     cards: [
       {
         heading1: "Services of a System Architect",
@@ -580,7 +577,7 @@ const servicesData = [
                 ],
               }
             ],
-            images: [sliderImage1, sliderImage2], // or any images you want in the slider
+            images: [sliderImage1, sliderImage2], 
           },
           {
             text:[
@@ -769,7 +766,7 @@ const servicesData = [
           image: sectionImage4
         },
       ],
-      // Existing content array (optional):
+     
       work: [
         {
           heading: "Process: How We Work Together in 5 Steps",
@@ -801,7 +798,7 @@ const servicesData = [
           // ...
         },
       ],
-      // NEW: cards array for the detail page, each with multiple images:
+      
       cards: [
         {
           heading1: "Services of a Graphic Designer",
@@ -821,7 +818,7 @@ const servicesData = [
                   ],
                 }
               ],
-              images: [sliderImage15, sliderImage16], // or any images you want in the slider
+              images: [sliderImage15, sliderImage16], 
             },
             {
               text:[
@@ -944,7 +941,6 @@ const servicesData = [
   ],  
   // .......................................
 
-// Inside your servicesData object for a particular service:
 brandIdentityData: {
   topSlider: [
     {
