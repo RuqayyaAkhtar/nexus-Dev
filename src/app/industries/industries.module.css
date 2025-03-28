@@ -205,7 +205,7 @@
     cursor: pointer;
     border-radius: 30px;
     transition: all 0.3s;
-    font-size: 18px;
+    font-size: 15px;
     font-family: var(--font-family2);
 }
 
@@ -228,7 +228,7 @@
     padding: 1rem 0;
     border-radius: 10px;
     justify-content: space-between;
-    align-items:center;
+    /* align-items:center; */
 }
 
 .card.zigzag {
@@ -269,7 +269,7 @@
 }
 
 .exploreButton {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 0.5rem 1rem;
     border: 1px solid var(--secondary-color);
     background-color: transparent;
@@ -398,11 +398,6 @@
     color: white;
   }
   
- 
-  
-
-
-
 
 @media (max-width:1130px) {
     .leftColumn {
@@ -412,6 +407,7 @@
     .rightColumn {
         max-width: 400px;
     }
+    
     .card {
         flex-direction: column;
         align-items: center;

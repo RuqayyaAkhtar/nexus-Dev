@@ -1,0 +1,514 @@
+.heroSectionMain {
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.heroSection {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.leftColumn {
+    flex: 1;
+    max-width: 550px;
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 66px;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 36px;
+    color: #d9d9d9;
+    margin-bottom: 2rem;
+}
+
+.description2 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #d9d9d9;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    font-family: var(--font-family2) !important;
+    background-color: #ffa400;
+    color: var(--primary-color);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid var(--secondary-color);
+
+}
+
+.ctaButton:hover {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+.rightColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 440px;
+}
+
+.imageContainer {
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.secondSection {
+    position: relative;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.rightSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.yellowCircle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    bottom: -30px;
+    z-index: 1;
+}
+
+.statCardmain {
+    z-index: 5;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+.statCarddiv {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    gap: 2rem;
+    background: linear-gradient(to right, #FFFFFF33, #FFFFFF33);
+    position: relative;
+    backdrop-filter: blur(15px);
+    z-index: 10;
+}
+
+.statCard {
+    position: relative;
+    color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.statHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.statText {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* industriesSection */
+
+.heroSectionMain2 {
+    width: 100%;
+    background-color: white;
+}
+
+.section {
+    max-width: 1250px;
+    margin: auto;
+    padding: 5%;
+    background-color: white;
+}
+
+.sectionC{
+    max-width: 1250px;
+    margin: auto;
+    padding: 5% 5% 0 5%;
+    background-color: white;
+
+}
+/* list */
+.heroSectionMain2 {
+    width: 100%;
+    background-color: white;
+}
+.container2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding:2% 0;
+    border-radius: 10px;
+    gap: 40px;
+  }
+  .section2ri8{
+    width: 45%;
+  }
+  .section2ri8 img{
+    width: 100%;
+    height: auto;
+  }
+.section2lft{
+width: 50%;
+}
+.section2lft h1{
+font-size: 32px;
+font-weight: 600;
+text-transform: capitalize;
+max-width: 600px;
+color:var(--primary-color)
+}
+
+.listt{
+    margin-top: 4%;
+  }
+  
+.listt li{
+    margin-bottom: 2%;
+    list-style:disc !important;
+    margin-left: 20px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 600;
+  }
+.listt li p{
+    font-weight: 400;
+    margin-top: 10px;
+}
+/*  */
+
+.containerF {
+    padding: 5%;
+    max-width: 1250px;
+    margin: auto;
+  }
+  .mainDiv{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 20px;
+    color:var(--primary-color);
+    max-width: 1250px;
+    margin: auto;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainDiv h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 66px;
+    text-align: center;
+  }
+  .mainDiv p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .statsContainer {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5% 10%;
+  }
+  
+  .stat {
+    padding:20% 5%;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10%;
+    border: 1px solid var(--secondary-color);
+    position: relative;
+    background:linear-gradient(to right,#66666600, #fdbb2023);
+  }
+  
+  .icon {
+   height: 100px;
+   width: 100px;
+   position: absolute;
+   top: -40px;
+   left: calc(50% - 50px);
+  }
+  .icon img{
+    width:100%;
+    height: auto;
+  }
+  
+  .statValue {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .statLabel {
+font-size: 28px !important;
+    color:var(--primary-color);
+    font-weight: 600;
+    line-height: 50px !important;
+  }
+
+
+@media (max-width:1130px) {
+    .leftColumn {
+        max-width: 510px;
+    }
+
+    .rightColumn {
+        max-width: 400px;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card.zigzag {
+        flex-direction: column;
+    }
+
+    .imageContent {
+        max-width: 100%;
+    }
+
+    .textContent {
+        max-width: 100%;
+        margin: 2% 0;
+    }
+
+    .buttonsContainer {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .topAbout {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .topAbout1 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .textContent1 {
+        max-width: 100%;
+        margin: 2% 0;
+
+    }
+}
+
+@media (max-width:1040px) {
+    .container {
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .leftColumn {
+        max-width: none;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .rightColumn {
+        width: 90%;
+        max-width: none;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .description2 {
+        text-align: center;
+    }
+
+    .statCarddiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 55px;
+    }
+
+    .statCard {
+        padding: 1rem;
+    }
+
+    .secondSection {
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .leftColumn {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+
+    .serveCardMain {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .statsContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width:730px) {
+    .statCarddiv {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 55px;
+    }
+}
+
+@media (max-width:700px) {
+    .rightColumn {
+        width: 100%
+    }
+
+    .serveCardMain {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 55px;
+    }
+}
+
+@media (max-width:700px) {
+    .rightSide {
+        width: 100%;
+    }
+
+    .statCardmain {
+        width: 100%;
+    }
+
+    .statCarddiv {
+        width: 100%;
+    }
+
+
+    .heading {
+        font-size: 45px;
+    }
+
+
+}
+
+@media (max-width:550px) {
+    .statCard {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .statCarddiv {
+        flex-wrap: wrap;
+    }
+
+    .statsContainer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .textContent h1 {
+        font-size: 28px;
+    }
+
+    .textContent1 h1 {
+        font-size: 30px;
+        margin: 0 0 5% 0;
+    }
+}
+
+@media (max-width:440px) {
+    .statHeading {
+        font-size: 35px;
+    }
+
+    .statText {
+        font-size: 18px;
+    }
+
+    .headingF {
+        font-size: 28px;
+    }
+
+
+    .heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .imageContainer {
+        padding: 0;
+    }
+
+}

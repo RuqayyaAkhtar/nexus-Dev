@@ -3,13 +3,14 @@ import React from 'react';
 '../globals.css';
 import Image from 'next/image';
 import styles from "./industries.module.css";
-import heroImage from './industriesImages/Group 1197132576 (1).png'
+import heroImage from './industriesImages/Group 1197133088.png'
 import ClientTestimonials from '../home/testimonial'
 import RadioSlider from '../home/radioSlider'
 import Header from '../header/page'
 import Footer from '../footer/page'
 import IndustriesSection from './industriesSection';
 import FormWithStats from './contactForm';
+
 const IndustriesPage = () => {
   return (
     <>

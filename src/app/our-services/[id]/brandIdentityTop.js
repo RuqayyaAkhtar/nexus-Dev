@@ -43,7 +43,7 @@ const TopSlider = ({ slides = [] }) => {
           <div
             key={index}
             className={styles.topSlide}
-            style={{ width: `${100 / slidesToShow}%` }} 
+            style={{ width: `${100 / slidesToShow}%` }}
           >
             <div className={styles.topImageWrapper}>
               <Image
