@@ -155,6 +155,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 5%;
   }
   
   .blogCard {
@@ -279,6 +280,49 @@
   }
   
   
+  
+  /* Blog Card - Zigzag layout */
+  .blogCard {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Hover effect for card */
+
+  
+  /* Alternate flex direction for zigzag effect */
+  .blogCard:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  /* Image Wrapper */
+  .blogImageWrapper {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .blogImage {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .blogContent {
+    flex: 2;
+  }
+  
+  
+  .descriptionB {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Read More Button */
+
+  
   /* media Query */
   
   @media (max-width:1200px) {}
@@ -303,6 +347,24 @@
       margin-top: 5%;
     }
   
+    .blogCard {
+      flex-direction: column-reverse !important;
+      padding-bottom:4%;
+       }
+       .blogImage {
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+         max-width: 100%;
+       }
+       .blogContent{
+         width:100%;
+         max-width: 100%;
+       }
+       .blogImageWrapper {
+      width: 100%;
+      max-width: 100%;
+      }
     
   }
   
@@ -318,6 +380,10 @@
       max-width: none;
       width: 100%;
       margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2%;
     }
   
     .rightColumn {
@@ -361,19 +427,6 @@
     .secondSection {
       padding-bottom: 0;
     }
-    .blogCard {
-   flex-direction: column;
-   padding-bottom:4%;
-    }
-    .blogImage {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .blogContent{
-      width:100%;
-    }
-    
   }
   
   @media (max-width:1000px) {
@@ -418,7 +471,14 @@
     .heading {
       font-size: 35px;
     }
-  
+     
+    .categories{
+      gap: 10px;
+    }
+    .categories button{
+      padding: 8px 10px;
+      font-size: 12px;
+    }
   
   }
   
@@ -435,62 +495,14 @@
     .imageContainer {
       padding: 0;
     }
-  
+    .blogContent {
+      padding: 0 ;
+    }
+  .blogContent h1{
+    font-size: 25px;
+  }
   }
   
   /* last */
 
-  
-  /* Blog Card - Zigzag layout */
-  .blogCard {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 1rem;
-    border-radius: 8px;
-  }
-  
-  /* Hover effect for card */
-
-  
-  /* Alternate flex direction for zigzag effect */
-  .blogCard:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  
-  /* Image Wrapper */
-  .blogImageWrapper {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .blogImage {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 8px;
-  }
-  
-  .blogContent {
-    flex: 2;
-  }
-  
-  
-  .descriptionB {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  /* Read More Button */
-
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .blogCard {
-      flex-direction: column;
-      text-align: center;
-    }
-    .blogCard:nth-child(even) {
-      flex-direction: column;
-    }
-  }
   

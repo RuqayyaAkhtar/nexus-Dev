@@ -62,7 +62,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     border: 1px solid var(--secondary-color);
-    margin-top:8%;
+    margin-top: 8%;
 }
 
 .ctaButton:hover {
@@ -89,56 +89,64 @@
     height: auto;
     border-radius: 10px;
 }
+
 /* section2 */
 
-.container2{
+.container2 {
     background-color: var(--primary-color);
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    padding:2%;
+    padding: 2%;
     border-radius: 10px;
     gap: 40px;
-  }
-  .section2ri8{
+}
+
+.section2ri8 {
     width: 30%;
-  }
-  .section2ri8 img{
+}
+
+.section2ri8 img {
     width: 100%;
     height: auto;
-  }
-.section2lft{
-width: 65%;
-color: white;
 }
-.section2lft h1{
-font-size: 32px;
-font-weight: 600;
-text-transform: capitalize;
-max-width: 600px;
+
+.section2lft {
+    width: 65%;
+    color: white;
 }
-.section2lft p{
+
+.section2lft h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    max-width: 600px;
+}
+
+.section2lft p {
     font-size: 18px;
-font-weight: 400 !important;
-margin-top: 2%;
+    font-weight: 400 !important;
+    margin-top: 2%;
 }
-.contactUsBtn{
-border: 1px solid var(--secondary-color);
-color: var(--secondary-color);
-background-color: transparent;
-padding: 8px 25px;
-border-radius: 30px;
-font-size: 18px;
-font-weight: 400;
-display: flex;
-align-items: center;
-margin-top: 4%;
-cursor: pointer;
-transition: all .3s;
+
+.contactUsBtn {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: all .3s;
 }
-.contactUsBtn:hover{
-background-color: var(--secondary-color);
-color: var(--primary-color);
+
+.contactUsBtn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 
@@ -148,13 +156,15 @@ color: var(--primary-color);
     width: 100%;
     background-color: white;
 }
-.sectionC{
+
+.sectionC {
     max-width: 1250px;
     margin: auto;
     padding: 5% 5% 0 5%;
     background-color: white;
 
 }
+
 .section {
     max-width: 1250px;
     margin: auto;
@@ -169,7 +179,7 @@ color: var(--primary-color);
     border: none;
     outline: none;
     background-color: transparent;
-    color:var(--primary-color);
+    color: var(--primary-color);
     cursor: pointer;
     border-radius: 30px;
     transition: all 0.3s;
@@ -177,7 +187,7 @@ color: var(--primary-color);
     font-family: var(--font-family2);
 }
 
-.button.active, 
+.button.active,
 .button:hover {
     background-color: var(--primary-color);
     color: white;
@@ -196,7 +206,7 @@ color: var(--primary-color);
     padding: 1rem 0;
     border-radius: 10px;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 
 .card.zigzag {
@@ -205,40 +215,43 @@ color: var(--primary-color);
 
 .textContent {
     max-width: 50%;
-    max-height: 100% ;
+    max-height: 100%;
 }
-.textContent h1{
+
+.textContent h1 {
     font-size: 36px;
     color: var(--primary-color);
     font-weight: 600;
 }
-.descriptionI{
+
+.descriptionI {
     color: var(--primary-color);
     margin-top: 2%;
 }
-.textContent p{
+
+.textContent p {
     margin-top: 2%;
     color: var(--primary-color);
 }
 
 
-.listt{
+.listt {
     margin-top: 4%;
-  }
-  
-.listt li{
+}
+
+.listt li {
     margin-bottom: 4%;
-    list-style:disc !important;
+    list-style: disc !important;
     margin-left: 20px;
     color: var(--primary-color);
     font-size: 18px;
-  }
+}
 
-.imageContent{
+.imageContent {
     max-width: 40%;
 }
 
-.imageContent img{
+.imageContent img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -261,13 +274,15 @@ color: var(--primary-color);
     background-color: var(--secondary-color);
     color: white;
 }
+
 /* StatForm */
 .containerF {
     padding: 5%;
     max-width: 1250px;
     margin: auto;
-  }
-  .mainDiv{
+}
+
+.mainDiv {
     display: flex;
     /* flex-wrap: wrap; */
     gap: 2rem;
@@ -277,27 +292,27 @@ color: var(--primary-color);
     color: #fff;
     max-width: 1250px;
     margin: auto;
-  }
-  
-  .formContainer {
-    width:50%;
-  }
-  
-  .headingF {
+}
+
+.formContainer {
+    width: 50%;
+}
+
+.headingF {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 1.5rem;
     color: #fff;
-  }
-  
-  .formF {
+}
+
+.formF {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-  }
-  
-  .input {
+}
+
+.input {
     max-width: 100%;
     padding: 0.8rem;
     border: 1px solid #ccc;
@@ -306,17 +321,19 @@ color: var(--primary-color);
     font-size: 12px;
     color: white;
     margin-top: 3%;
-  }
-  .input::placeholder{
+}
+
+.input::placeholder {
     color: white;
     font-size: 12px;
-  }
-  .textarea {
+}
+
+.textarea {
     resize: none;
     height: 100px;
-  }
-  
-  .buttonF {
+}
+
+.buttonF {
     background-color: var(--secondary-color);
     padding: 0.8rem;
     border: 1px solid var(--secondary-color);
@@ -329,53 +346,54 @@ color: var(--primary-color);
 
 .buttonF1 {
     background-color: transparent;
-    color:var(--primary-color);
+    color: var(--primary-color);
     font-size: 1rem;
     border: none;
     outline: none;
     cursor: pointer;
     transition: all .3s;
     font-family: var(--font-family2);
-  }
-  
-  .buttonF:hover {
+}
+
+.buttonF:hover {
     background-color: transparent;
-  }
-  .buttonF:hover .buttonF1 {
+}
+
+.buttonF:hover .buttonF1 {
     color: white;
-  }
-  
-  .statsContainer {
+}
+
+.statsContainer {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-  }
-  
-  .stat {
+}
+
+.stat {
     background-color: var(--formCard-color);
     padding: 3rem 1rem;
     text-align: center;
     border-radius: 10px;
-  }
-  
-  .icon {
+}
+
+.icon {
     font-size: 48px;
     color: var(--secondary-color);
-  }
-  
-  .statValue {
+}
+
+.statValue {
     font-size: 48px;
     font-weight: 600;
-  }
-  
-  .statLabel {
+}
+
+.statLabel {
     font-size: 18px;
     color: white;
-  }
-  
- 
-  
+}
+
+
+
 
 
 
@@ -388,25 +406,53 @@ color: var(--primary-color);
     .rightColumn {
         max-width: 400px;
     }
+
     .card {
         flex-direction: column;
-        align-items: center;
+        
     }
 
     .card.zigzag {
         flex-direction: column;
     }
-    .imageContent{
+
+    .imageContent {
         max-width: 100%;
     }
-    .textContent{
+
+    .textContent {
         max-width: 100%;
-        margin: 2% 0;
+        margin: 2% 1%;
+        width: 100%;
     }
+
     .buttonsContainer {
         justify-content: flex-start;
         gap: 10px;
     }
+    
+    .container2{
+        flex-direction: column;
+        padding:4% 3%;
+       }
+       .section2ri8{
+        width: 100%;
+       }
+       .section2lft{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       }
+       .section2lft h1{
+        text-align: center;
+        max-width: 100%;
+       }
+       .contactUsBtn{
+        align-self: center;
+        justify-self: center;
+  
+       }
 }
 
 @media (max-width:1040px) {
@@ -419,6 +465,9 @@ color: var(--primary-color);
         max-width: none;
         width: 100%;
         margin-top: 2%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .rightColumn {
@@ -447,10 +496,12 @@ color: var(--primary-color);
     .statCard {
         padding: 1rem;
     }
-    .secondSection{
-margin:0;
-padding: 1rem;
+
+    .secondSection {
+        margin: 0;
+        padding: 1rem;
     }
+    
 }
 
 @media (max-width:1000px) {
@@ -466,16 +517,19 @@ padding: 1rem;
     .serveCardMain {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .mainDiv {
         flex-direction: column-reverse;
         gap: 2rem;
-      }
-      .formContainer{
-      width: 100%;
-      }
-      .statsContainer{
+    }
+
+    .formContainer {
         width: 100%;
-      }
+    }
+
+    .statsContainer {
+        width: 100%;
+    }
 }
 
 @media (max-width:730px) {
@@ -518,24 +572,26 @@ padding: 1rem;
 }
 
 @media (max-width:550px) {
-    
-      .textContent h1{
+
+    .textContent h1 {
         font-size: 28px;
-      }
+    }
 }
 
 @media (max-width:440px) {
-  
-.headingF{
-    font-size: 28px;
-}
-.formF{
-    max-width: 100%;
-}  
-.formContainer {    
-    min-width: none;
-    width: 100%;
-  }
+
+    .headingF {
+        font-size: 28px;
+    }
+
+    .formF {
+        max-width: 100%;
+    }
+
+    .formContainer {
+        min-width: none;
+        width: 100%;
+    }
 
 
     .heading {
@@ -546,7 +602,8 @@ padding: 1rem;
     .imageContainer {
         padding: 0;
     }
-    .mainDiv{
+
+    .mainDiv {
         padding: 1rem;
     }
 }

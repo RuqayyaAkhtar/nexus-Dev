@@ -30,7 +30,7 @@ const sliderData = [
     client: "Luxe Interiors",
     country: "USA",
     industry: "Web Design & Development",
-    image: image3,
+    image: image1,
   },
 ];
 
@@ -78,13 +78,13 @@ const ProjectsSlider = () => {
                     <p className={styles.descriptionR}>{item.description}</p>
                     <ul className={styles.detailsR}>
                       <li>
-                        <strong>Client:</strong> {item.client}
+                        <strong>Client:</strong> &nbsp;{item.client}
                       </li>
                       <li>
-                        <strong>Country:</strong> {item.country}
+                        <strong>Country:</strong> &nbsp;{item.country}
                       </li>
                       <li>
-                        <strong>Industry:</strong> {item.industry}
+                        <strong>Industry:</strong>&nbsp; {item.industry}
                       </li>
                     </ul>
                     <button className={styles.exploreButtonR}>

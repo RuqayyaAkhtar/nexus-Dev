@@ -247,6 +247,7 @@
 
 .topImageWrapper {
   width: 100%;
+  cursor: pointer;
 }
 
 .topImage {
@@ -268,4 +269,9 @@
   color: #555;
   margin-top: 0.3rem;
   text-align: center;
+}
+@media (max-width:360px){
+  .topSlide {
+    padding: 5px;
+  }
 }

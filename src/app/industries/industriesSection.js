@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import styles from './industries.module.css';
-import Image from 'next/image'; 
+import Image from 'next/image';
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
 import Data from './data';
@@ -19,11 +19,11 @@ const buttons = [
 
 const IndustriesSection = () => {
   const [activeIndustry, setActiveIndustry] = useState('All Industries');
- 
+
   const filteredData =
-  activeIndustry === 'All Industries'
-    ? Data
-    : Data.filter((item) => item.title.toLowerCase().includes(activeIndustry.toLowerCase()));
+    activeIndustry === 'All Industries'
+      ? Data
+      : Data.filter((item) => item.title.toLowerCase().includes(activeIndustry.toLowerCase()));
 
 
   return (
@@ -34,9 +34,8 @@ const IndustriesSection = () => {
             {buttons.map((button, index) => (
               <button
                 key={index}
-                className={`${styles.button} ${
-                  activeIndustry === button ? styles.active : ''
-                }`}
+                className={`${styles.button} ${activeIndustry === button ? styles.active : ''
+                  }`}
                 onClick={() => setActiveIndustry(button)}
               >
                 {button}
@@ -56,13 +55,13 @@ const IndustriesSection = () => {
                 <div className={styles.textContent}>
                   <h1>{item.title}</h1>
                   <p className={styles.descriptionI}>{item.description}</p>
-                 <Link href={`/industries/${item.id}`}>
-                        <button className={styles.exploreButton}>
-                          Explore More <GoArrowUpRight />
-                        </button>
-                      </Link>
+                  <Link href={`/industries/${item.id}`}>
+                    <button className={styles.exploreButton}>
+                      Explore More <GoArrowUpRight />
+                    </button>
+                  </Link>
                 </div>
-                
+
               </div>
             ))}
           </div>

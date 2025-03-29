@@ -69,7 +69,7 @@ const data = [
       {
         heading: 'Empowering Healthcare with Cutting-Edge IT Solutions',
         para1:
-          'From clinics to pharmacies, Nexus-Dev delivers innovative solutions to streamline operations and enhance patient care.',
+          'From clinics to pharmacies, Nexus-Dev delivers innovative solutions to streamline operations and enhance patient care.From clinics to pharmacies, Nexus-Dev delivers innovative solutions to streamline operations and enhance patient care.',
         image: bannerImageH,
       },
     ],
@@ -530,7 +530,7 @@ const data = [
     id: 6,
     title: 'e-Commerce',
     description:
-      'From seamless online store management to AI-driven customer experiences, Nexus-Dev provides cutting-edge IT solutions to scale, optimize, and secure your eCommerce business.',
+      'From seamless online store management to AI-driven customer experiences, Nexus-Dev provides cutting-edge IT solutions to scale, optimize, and secure your eCommerce business with innovative technologies, data-driven insights, and robust cybersecurity measures.',
     core: 'FIGMA, HTML, CSS, JAVA & PHP',
     industry: 'Health Care',
     image: ImageE,

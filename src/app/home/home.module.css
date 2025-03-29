@@ -223,7 +223,7 @@ background-color: var(--primary-color);
     max-width: 1250px;
     margin: 0 auto;
     padding: 5%;
-    gap: 40px;
+    gap: 60px;
   }
   .left2{
     max-width:  550px;
@@ -581,6 +581,7 @@ background-color: var(--primary-color);
   position: relative;
   display: flex;
   overflow: hidden;
+  margin-top: 4%;
 }
 .slidesWrapper {
   display: flex;

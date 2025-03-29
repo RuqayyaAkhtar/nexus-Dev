@@ -142,7 +142,6 @@
 .projectCard {
   display: flex;
   gap: 50px;
-  background: #fff;
   padding: 20px;
   border-radius: 10px;
 }

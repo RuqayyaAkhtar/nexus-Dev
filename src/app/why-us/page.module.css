@@ -92,24 +92,11 @@
 .secondSection {
     position: relative;
     padding: 4rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(10px);
     border-radius: 15px;
     margin: 2rem auto;
     max-width: 1200px;
     width: 100%;
 }
-
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    position: relative;
-}
-
 
 
 .rightSide {
@@ -185,130 +172,143 @@
     background-color: white;
 }
 
-.sectionC{
+.sectionC {
     max-width: 1250px;
     margin: auto;
     padding: 5% 5% 0 5%;
     background-color: white;
 
 }
+
 /* list */
 .heroSectionMain2 {
     width: 100%;
     background-color: white;
 }
-.container2{
+
+.container2 {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    padding:2% 0;
+    padding: 2% 0;
     border-radius: 10px;
     gap: 40px;
-  }
-  .section2ri8{
-    width: 45%;
-  }
-  .section2ri8 img{
-    width: 100%;
-    height: auto;
-  }
-.section2lft{
-width: 50%;
-}
-.section2lft h1{
-font-size: 32px;
-font-weight: 600;
-text-transform: capitalize;
-max-width: 600px;
-color:var(--primary-color)
 }
 
-.listt{
+.section2ri8 {
+    width: 45%;
+}
+
+.section2ri8 img {
+    width: 100%;
+    height: auto;
+}
+
+.section2lft {
+    width: 50%;
+}
+
+.section2lft h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    max-width: 600px;
+    color: var(--primary-color)
+}
+
+.listt {
     margin-top: 4%;
-  }
-  
-.listt li{
+}
+
+.listt li {
     margin-bottom: 2%;
-    list-style:disc !important;
+    list-style: disc !important;
     margin-left: 20px;
     color: var(--primary-color);
     font-size: 18px;
     font-weight: 600;
-  }
-.listt li p{
+}
+
+.listt li p {
     font-weight: 400;
     margin-top: 10px;
 }
+
 /*  */
 
 .containerF {
     padding: 5%;
     max-width: 1250px;
     margin: auto;
-  }
-  .mainDiv{
+}
+
+.mainDiv {
     display: flex;
     gap: 2rem;
     padding: 2rem;
     border-radius: 20px;
-    color:var(--primary-color);
+    color: var(--primary-color);
     max-width: 1250px;
     margin: auto;
     height: max-content;
     flex-direction: column;
     align-items: center;
-  }
-  .mainDiv h1{
+}
+
+.mainDiv h1 {
     font-size: 40px;
     font-weight: 600;
     line-height: 66px;
     text-align: center;
-  }
-  .mainDiv p{
+}
+
+.mainDiv p {
     font-size: 18px;
     text-align: center;
     margin-bottom: 2rem;
-  }
-  .statsContainer {
+}
+
+.statsContainer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:5% 10%;
-  }
-  
-  .stat {
-    padding:20% 5%;
+    gap: 5% 10%;
+}
+
+.stat {
+    padding: 20% 5%;
     text-align: center;
     border-radius: 10px;
     margin-top: 10%;
     border: 1px solid var(--secondary-color);
     position: relative;
-    background:linear-gradient(to right,#66666600, #fdbb2023);
-  }
-  
-  .icon {
-   height: 100px;
-   width: 100px;
-   position: absolute;
-   top: -40px;
-   left: calc(50% - 50px);
-  }
-  .icon img{
-    width:100%;
+    background: linear-gradient(to right, #66666600, #fdbb2023);
+    border: 1px solid red;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 50px);
+}
+
+.icon img {
+    width: 100%;
     height: auto;
-  }
-  
-  .statValue {
+}
+
+.statValue {
     font-size: 48px;
     font-weight: 600;
-  }
-  
-  .statLabel {
-font-size: 28px !important;
-    color:var(--primary-color);
+}
+
+.statLabel {
+    font-size: 28px !important;
+    color: var(--primary-color);
     font-weight: 600;
     line-height: 50px !important;
-  }
+}
 
 
 @media (max-width:1130px) {
@@ -356,7 +356,18 @@ font-size: 28px !important;
     .textContent1 {
         max-width: 100%;
         margin: 2% 0;
+    }
 
+    .container2 {
+        flex-direction: column-reverse;
+    }
+
+    .section2ri8 {
+        width: 100%;
+    }
+
+    .section2lft {
+        width: 100%;
     }
 }
 
@@ -389,14 +400,20 @@ font-size: 28px !important;
         text-align: center;
     }
 
+    .statCardmain{
+        max-width: 100%;
+        width: 100%;
+    }
     .statCarddiv {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 55px;
+        max-width: 100%;
     }
 
     .statCard {
         padding: 1rem;
+        width: 100%;
     }
 
     .secondSection {
@@ -404,6 +421,7 @@ font-size: 28px !important;
         padding: 1rem;
     }
 }
+
 
 @media (max-width:1000px) {
     .leftColumn {
@@ -459,10 +477,33 @@ font-size: 28px !important;
     .heading {
         font-size: 45px;
     }
-
-
 }
 
+@media (max-width:680px) {
+    .statsContainer {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2% 10%;
+        height: max-content;
+        margin-bottom: 10%;
+        margin-top: 0;
+    }
+    .stat {
+        padding: 20% 5%;
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 10%;
+        border: 1px solid var(--secondary-color);
+        position: relative;
+        background: linear-gradient(to right, #66666600, #fdbb2023);
+        border: 1px solid red;
+    }
+    .containerF{
+        padding-top: 0;
+    }
+
+}
 @media (max-width:550px) {
     .statCard {
         width: 100%;
@@ -476,6 +517,7 @@ font-size: 28px !important;
     .statsContainer {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+        margin-bottom: 5%;
     }
 
     .textContent h1 {
@@ -485,6 +527,15 @@ font-size: 28px !important;
     .textContent1 h1 {
         font-size: 30px;
         margin: 0 0 5% 0;
+    }
+    .mainDiv{
+        padding-bottom: 0;
+    }
+    .mainDiv p{
+        margin-bottom: 0;
+    }
+    .stat{
+        margin-top: 14%;
     }
 }
 
@@ -510,5 +561,20 @@ font-size: 28px !important;
     .imageContainer {
         padding: 0;
     }
-
+    .statsContainer {
+    width: 100%;
+    }
+    .stat{
+        margin-top: 18%;
+    }
+    .stat h1{
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+    .icon{
+        height: 70px;
+        width: 70px;
+        top: -40px;
+        left: calc(50% - 35px);
+    }
 }

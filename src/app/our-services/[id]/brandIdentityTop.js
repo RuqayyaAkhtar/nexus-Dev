@@ -3,12 +3,39 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./brand.module.css";
 
+// Component for each logo slide that handles hover state
+const LogoSlide = ({ slide, width }) => {
+  const [isHovered, setIsHovered] = useState(false);
+  return (
+    <div
+      className={styles.topSlide}
+      style={{ width }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className={styles.topImageWrapper}>
+        <Image
+          src={isHovered && slide.hoverImage ? slide.hoverImage : slide.image}
+          alt={slide.title}
+          layout="responsive"
+          width={600}
+          height={400}
+          className={styles.topImage}
+        />
+      </div>
+    </div>
+  );
+};
+
 const TopSlider = ({ slides = [] }) => {
   if (!slides || slides.length === 0) return null;
 
-  const slidesToShow = 3; // Number of slides visible at a time
+  // For simplicity, using a fixed value here;
+  // if you want responsive behavior (e.g., 2 slides on small screens),
+  // you can implement similar logic as before.
+  const slidesToShow = 3; 
   const totalSlides = slides.length;
-  const totalPages = Math.ceil(totalSlides / slidesToShow); // Total groups of 3 slides
+  const totalPages = Math.ceil(totalSlides / slidesToShow);
 
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -23,39 +50,27 @@ const TopSlider = ({ slides = [] }) => {
 
   return (
     <div className={styles.topSliderContainer}>
-          <h2 className={styles.headingS}>Brand Identity Design</h2>
-        <p className={styles.subheadingS}>
-          Our Brand Identity Design service focuses on creating a unique and cohesive 
-          visual representation of your brand. We design custom logos, color schemes, 
-          typography, and brand guidelines to ensure consistency across all touchpoints.
-        </p>
+      <h2 className={styles.headingS}>Brand Identity Design</h2>
+      <p className={styles.subheadingS}>
+        Our Brand Identity Design service focuses on creating a unique and cohesive 
+        visual representation of your brand. We design custom logos, color schemes, 
+        typography, and brand guidelines to ensure consistency across all touchpoints.
+      </p>
       <div
         className={styles.topSliderTrack}
         style={{
           display: "flex",
-          width: `${totalPages * 100}%`, 
+          width: `${totalPages * 100}%`,
           transform: `translateX(-${currentPage * (100 / totalPages)}%)`,
-          transition: "transform 0.7s ease-in-out", 
+          transition: "transform 0.7s ease-in-out",
         }}
       >
-     
         {slides.map((slide, index) => (
-          <div
-            key={index}
-            className={styles.topSlide}
-            style={{ width: `${100 / slidesToShow}%` }}
-          >
-            <div className={styles.topImageWrapper}>
-              <Image
-                src={slide.image}
-                alt={slide.title}
-                layout="responsive"
-                width={600}
-                height={400}
-                className={styles.topImage}
-              />
-            </div>
-          </div>
+          <LogoSlide 
+            key={index} 
+            slide={slide} 
+            width={`${100 / slidesToShow}%`} 
+          />
         ))}
       </div>
     </div>

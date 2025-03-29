@@ -34,7 +34,6 @@ export default function ServiceDetails() {
                 <div className={styles.leftColumn}>
                   <h1 className={styles.heading}>{banner.heading}</h1>
                   <p className={styles.description}>{banner.para1}</p>
-                  {/* Add more paragraphs or data as needed */}
                 </div>
                 {/* Right Column */}
                 <div className={styles.rightColumn}>

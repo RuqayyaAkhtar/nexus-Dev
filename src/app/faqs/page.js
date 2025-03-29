@@ -38,6 +38,18 @@ const faqData = {
         "Key skills include analytical thinking, excellent communication, and a strong grasp of both business operations and technology.",
     },
   ],
+  BusinessConsultant: [
+    {
+      question: "What is the role of a Business Consultant?",
+      answer:
+        "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
+    },
+    {
+      question: "What skills does a Business Consultant need?",
+      answer:
+        "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
+    },
+  ],
     BusinessAnalyst: [
       {
         question: "The expense windows adapted sir. Wrong widen drawn.",
@@ -65,6 +77,18 @@ const faqData = {
           "Key skills include analytical thinking, excellent communication, and a strong grasp of both business operations and technology.",
       },
     ],
+    DigitalMarketing:[
+      {
+        question: "What is the role of a Business Consultant?",
+        answer:
+          "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
+      },
+      {
+        question: "What skills does a Business Consultant need?",
+        answer:
+          "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
+      },
+    ],
     SystemArchitect: [
       {
         question: "What does a System Architect do?",
@@ -75,18 +99,6 @@ const faqData = {
         question: "What qualifications are required for a System Architect?",
         answer:
           "A strong technical background, experience with system design, and familiarity with architectural patterns are important for this role.",
-      },
-    ],
-    BusinessConsultant: [
-      {
-        question: "What is the role of a Business Consultant?",
-        answer:
-          "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
-      },
-      {
-        question: "What skills does a Business Consultant need?",
-        answer:
-          "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
       },
     ],
     GraphicDesigner: [
@@ -125,24 +137,12 @@ const faqData = {
           "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
       },
     ],
-    DigitalMarketing:[
-      {
-        question: "What is the role of a Business Consultant?",
-        answer:
-          "A Business Consultant provides expert advice to help companies optimize their operations, strategize for growth, and solve critical business challenges.",
-      },
-      {
-        question: "What skills does a Business Consultant need?",
-        answer:
-          "Effective communication, strategic planning, and a deep understanding of market trends are vital for a successful Business Consultant.",
-      },
-    ],
   };
   const buttonDisplayNames = {
     MobileApplication : "Mobile Application Development",
+    BusinessConsultant: "Business Consultant",
     BusinessAnalyst: "Business Analyst",
     SystemArchitect: "System Architect",
-    BusinessConsultant: "Business Consultant",
     GraphicDesigner: "Graphic Designer",
     WebDevelopment: "Web Development",
     UIDesigner: "UI/UX Designer",
