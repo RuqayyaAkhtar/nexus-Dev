@@ -102,7 +102,7 @@ const HeroSection = () => {
           <div className={styles.right2}>
             <h1>Lets Talk</h1>
             <h4>We makes custom mobile apps, Web & enterprise Solutions for Startups. Enterprises & mid - Scale Businesses,</h4>
-            <a href=""><button>Learn More<BsArrowUpRightCircle /></button></a>
+            <a href="/nexus-Dev/contact-us"><button>Learn More<BsArrowUpRightCircle /></button></a>
             <p>Whether you’re looking to redesign your website, enhance your online presence, or develop a custom digital solution, we’re here to help. Our team of experts is committed to understanding your unique needs and providing tailored strategies that align with your business goals. We take pride in delivering innovative, results-driven solutions that drive growth and efficiency. Let’s discuss how we can transform your ideas into reality and take your business to the next level. Reach out today to get started and experience the difference of working with a dedicated digital partner. We look forward to hearing from you.</p>
           </div>
         </div>

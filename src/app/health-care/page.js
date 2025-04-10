@@ -57,7 +57,7 @@ const IndustriesPage = () => {
     <div className={styles.section2lft}>
       <h1>Build an App That Gives Effective Healthcare Solutions</h1>
       <p>We are the leading healthcare app development company providing award-winning solutions to healthcare startups and established firms. Right from basic clinic management solutions to complex diagnosis and treatment software, our team of healthcare app developers specialise in helping the healthcare domain with tech-powered digital solutions.</p>
-      <button className={styles.contactUsBtn}>Contact Us < GoArrowUpRight/></button>
+      <a href="/nexus-Dev/contact-us"></a><button className={styles.contactUsBtn}>Contact Us < GoArrowUpRight/></button>
     </div>
       </div>
 

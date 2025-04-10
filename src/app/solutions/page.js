@@ -26,7 +26,7 @@ const SolutionPage = () => {
         Tailored Solutions for Your Digital Success
           </p>
           <p  className={styles.description2}>From app development to rebranding, we empower businesses with cutting-edge solutions to scale and innovate.</p>
-        <a href="/"><button className={styles.ctaButton}>Get Started</button></a>
+        <a href="/nexus-Dev/contact-us"><button className={styles.ctaButton}>Get Started</button></a>
         </div>
 
         {/* Right Column */}
