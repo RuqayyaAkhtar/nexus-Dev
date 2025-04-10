@@ -1,7 +1,8 @@
 /* header */
 .headerMain{
   width: 100%;
-  background-color:var(--primary-color);
+  background: linear-gradient(to right ,#324746,#465958);
+
   position: sticky;
   top: 0;
   z-index: 20;
@@ -16,7 +17,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
-  background-color: var(--primary-color);
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 

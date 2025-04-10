@@ -51,25 +51,34 @@ const HeroSection = () => {
 
         <section className={styles.secondSection}>
           <div className={styles.container2}>
-            <div className={styles.leftSide}>
-              <button className={styles.smallButton}><RiArrowDownFill /></button>
-            </div>
+          
+     <div className={styles.container2}>
+       <div className={styles.rightSide}>
+  <div className={styles.yellowCircle}></div>
+  <div className={styles.statCardmain}>
+    <div className={styles.statCarddiv}>
+      <div className={styles.statCard}>
+        <h3 className={styles.statHeading}>+150</h3>
+        <p className={styles.statText}>Served Industries</p>
+      </div>
+      <div className={styles.statCard}>
+        <h3 className={styles.statHeading}>+56 K</h3>
+        <p className={styles.statText}>Successful Projects</p>
+      </div>
+      <div className={styles.statCard}>
+        <h3 className={styles.statHeading}>+30K</h3>
+        <p className={styles.statText}>Happy Clients</p>
+      </div>
+      <div className={styles.statCard}>
+        <h3 className={styles.statHeading}>+104k</h3>
+        <p className={styles.statText}>Hours of Work</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div className={styles.rightSide}>
-              <div className={styles.yellowCircle}></div>
-              <div className={styles.statCardmain}>
-                <div className={styles.statCarddiv}>
-                  <div className={styles.statCard}>
-                    <h3 className={styles.statHeading}>+30K</h3>
-                    <p className={styles.statText}>Happy Clients</p>
-                  </div>
-                  <div className={styles.statCard}>
-                    <h3 className={styles.statHeading}>500+</h3>
-                    <p className={styles.statText}>Big Projects</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+      </div>
+        
 
           </div>
         </section>

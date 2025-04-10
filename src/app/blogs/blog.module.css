@@ -1,10 +1,10 @@
 .heroSectionMain {
   width: 100%;
-  background-color: var(--primary-color);
+  background: linear-gradient(to right ,#324746,#465958);
+
 }
 
 .heroSection {
-  background-color: var(--primary-color);
   color: #ffffff;
   display: flex;
   flex-direction: column;

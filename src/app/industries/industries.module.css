@@ -1,10 +1,9 @@
 .heroSectionMain {
     width: 100%;
-    background-color: var(--primary-color);
+    background: linear-gradient(to right ,#324746,#465958);
 }
 
 .heroSection {
-    background-color: var(--primary-color);
     color: #ffffff;
     padding: 4rem 2rem;
     display: flex;
@@ -89,18 +88,7 @@
     border-radius: 10px;
 }
 
-.secondSection {
-    position: relative;
-    padding: 4rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    margin: 2rem auto;
-    max-width: 1200px;
-    width: 100%;
-}
+
 
 .container2 {
     display: flex;
@@ -110,6 +98,16 @@
     position: relative;
 }
 
+
+
+.secondSection {
+    position: relative;
+    padding: 4rem 0;
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    width: 100%;
+}
 
 
 .rightSide {
@@ -145,7 +143,7 @@
     border-radius: 20px;
     display: flex;
     gap: 2rem;
-    background: linear-gradient(to right, #FFFFFF33,#FFFFFF33);
+    background: linear-gradient(to right, #FFFFFF33, #FFFFFF33);
     position: relative;
     backdrop-filter: blur(15px);
     z-index: 10;
@@ -170,6 +168,7 @@
     font-size: 1.2rem;
     color: #ffffff;
 }
+
 
 /* industriesSection */
 
@@ -228,7 +227,6 @@
     padding: 1rem 0;
     border-radius: 10px;
     justify-content: space-between;
-    /* align-items:center; */
 }
 
 .card.zigzag {
@@ -295,7 +293,6 @@
   }
   .mainDiv{
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 2rem;
     background-color: var(--primary-color);
     padding: 2rem;

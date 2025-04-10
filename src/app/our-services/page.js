@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import styles from './our-services.module.css';
 import Image from 'next/image';
-import heroImage from './images/Group 1197132640.png';
+import heroImage from './images/Group 1197132640 (1).png';
 import Header from '../header/page';
 import Footer from '../footer/page';
 import Link from "next/link";
