@@ -27,9 +27,9 @@ const ConsultationPage = ({ content = [] }) => {
                                     <p>
                                         {slide.description}
                                     </p>
-                                    <button className={styles.contactUsBtn}>
+                                    <a href="/nexus-Dev/contact-us"> <button className={styles.contactUsBtn}>
                                         Contact Us <GoArrowUpRight />
-                                    </button>
+                                    </button></a>
                                 </div>
                             </div>
                         ))}
