@@ -8,7 +8,7 @@ import Data from './data';
 const buttons = [
   'All Industries',
   'Telecommunication',
-  'State Agencies ',
+  'State Agencies',
   'Health Care',
   'Accountants',
   'Educations',

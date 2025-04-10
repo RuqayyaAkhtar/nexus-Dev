@@ -175,9 +175,9 @@ const ProjectSection = () => {
                     <strong>Industry:</strong>
                     <span className={styles.spann}>{project.industry}</span>
                   </p>
-                  <button className={styles.exploreButton}>
+                  <a href="/nexus-Dev/contact-us"><button className={styles.exploreButton}>
                     Explore More <GoArrowUpRight />
-                  </button>
+                  </button></a>
                 </div>
                 <Image
                   src={project.image}
@@ -206,9 +206,9 @@ const ProjectSection = () => {
                     <strong>Industry:</strong>
                     <span className={styles.spann}>{project.industry}</span>
                   </p>
-                  <button className={styles.exploreButton}>
+                  <a href="/nexus-Dev/contact-us"><button className={styles.exploreButton}>
                     Explore More <GoArrowUpRight />
-                  </button>
+                  </button></a>
                 </div>
               </>
             )}

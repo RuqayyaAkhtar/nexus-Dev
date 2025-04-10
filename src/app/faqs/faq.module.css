@@ -258,6 +258,10 @@
   align-items: center;
   justify-content: space-around;
 }
+.demoBtn:hover{
+  background-color: var(--secondary-color);
+  color: white;
+}
 
 .iconss {
   margin-left: 8px;

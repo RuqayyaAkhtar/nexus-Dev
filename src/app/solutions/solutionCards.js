@@ -106,7 +106,7 @@ const SolutionCards = () => {
                       <li key={bulletIndex}>{bullet}</li>
                     ))}
                 </ul>
-                 <a href="#"> <button className={styles.exploreButton}>Let's Talk <GoArrowUpRight/></button></a>
+                 <a href="/nexus-Dev/contact-us"> <button className={styles.exploreButton}>Let's Talk <GoArrowUpRight/></button></a>
                 </div>
                 
               </div>

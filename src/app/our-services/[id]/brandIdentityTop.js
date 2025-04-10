@@ -30,9 +30,8 @@ const LogoSlide = ({ slide, width }) => {
 const TopSlider = ({ slides = [] }) => {
   if (!slides || slides.length === 0) return null;
 
-  // For simplicity, using a fixed value here;
-  // if you want responsive behavior (e.g., 2 slides on small screens),
-  // you can implement similar logic as before.
+  // Set the number of slides to show at once
+
   const slidesToShow = 3; 
   const totalSlides = slides.length;
   const totalPages = Math.ceil(totalSlides / slidesToShow);
@@ -78,3 +77,4 @@ const TopSlider = ({ slides = [] }) => {
 };
 
 export default TopSlider;
+  

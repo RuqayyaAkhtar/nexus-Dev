@@ -24,7 +24,7 @@ const ConsultationPage = () => {
     <div className={styles.section2lft}>
       <h1>Explore Solutions & Get a Free Consultation</h1>
       <p>Discover innovative solutions tailored to your business needs. Whether you're looking to build an app, redesign your website, or revamp your brand, we provide expert-driven strategies to bring your vision to life. Get a free consultation today and explore how we can elevate your project with cutting-edge technology and creative solutions.</p>
-      <button className={styles.contactUsBtn}>Contact Us < GoArrowUpRight/></button>
+      <a href="/nexus-Dev/contact-us"><button className={styles.contactUsBtn}>Contact Us < GoArrowUpRight/></button></a>
     </div>
       </div>
         </section>

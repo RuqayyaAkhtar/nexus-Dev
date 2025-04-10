@@ -3,7 +3,7 @@ import React from 'react';
 '../globals.css';
 import Image from 'next/image';
 import styles from "./home.module.css";
-import heroImage from "./homeImages/Group 1197132576.png"
+import heroImage from "./homeImages/Group 1197132576 (8).png"
 import { RiArrowDownFill } from "react-icons/ri";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { LuBoxes } from "react-icons/lu";
@@ -34,7 +34,7 @@ const HeroSection = () => {
               team tailors strategies for success. Let’s transform your vision into
               reality with scalable, results-driven services.
             </p>
-            <button className={styles.ctaButton}>Start A Project</button>
+           <a href="/nexus-Dev/contact-us"> <button className={styles.ctaButton}>Start A Project</button></a>
           </div>
 
           {/* Right Column */}
@@ -93,7 +93,7 @@ const HeroSection = () => {
           <div className={styles.right2}>
             <h1>Lets Talk</h1>
             <h4>We makes custom mobile apps, Web & enterprise Solutions for Startups. Enterprises & mid - Scale Businesses,</h4>
-            <a href="#"><button>Learn More<BsArrowUpRightCircle /></button></a>
+            <a href=""><button>Learn More<BsArrowUpRightCircle /></button></a>
             <p>Whether you’re looking to redesign your website, enhance your online presence, or develop a custom digital solution, we’re here to help. Our team of experts is committed to understanding your unique needs and providing tailored strategies that align with your business goals. We take pride in delivering innovative, results-driven solutions that drive growth and efficiency. Let’s discuss how we can transform your ideas into reality and take your business to the next level. Reach out today to get started and experience the difference of working with a dedicated digital partner. We look forward to hearing from you.</p>
           </div>
         </div>
@@ -163,7 +163,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className={styles.btnDIv}>
-            <a href="#"><button className={styles.explore}>Explore More<GoArrowUpRight /></button></a>
+            <a href="/nexus-Dev/our-services"><button className={styles.explore}>Explore More<GoArrowUpRight /></button></a>
           </div>
         </div>
       </section>
@@ -230,7 +230,7 @@ const HeroSection = () => {
           <div className={styles.mainB}>
             <h1>Already Have a Project?</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry <a href="#">ourcompany@gmail.com</a> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-            <button className={`${styles.ctaButton} ${styles.ctaButton2}`}>Start A Project</button>
+           <a href='/nexus-Dev/contact-us'> <button className={`${styles.ctaButton} ${styles.ctaButton2}`}>Start A Project</button></a>
           </div>
         </div>
       </section>

@@ -22,7 +22,7 @@ const sliderData = [
     client: "Luxe Interiors",
     country: "USA",
     industry: "Web Design & Development",
-    image: image2,
+    image: image1,
   },
   {
     title: "Boosting Engagement with a Custom Mobile App",
@@ -87,9 +87,9 @@ const ProjectsSlider = () => {
                         <strong>Industry:</strong>&nbsp; {item.industry}
                       </li>
                     </ul>
-                    <button className={styles.exploreButtonR}>
+                    <a href="/nexus-Dev/case-study"><button className={styles.exploreButtonR}>
                       Explore More <span className={styles.arrowR}><GoArrowUpRight /></span>
-                    </button>
+                    </button></a>
                   </div>
                   <div className={styles.imageContainerR}>
                     <Image src={item.image} alt={item.title} />

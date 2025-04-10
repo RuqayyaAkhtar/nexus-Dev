@@ -5,16 +5,17 @@ import styles from "./services-details.module.css";
 import Image from "next/image";
 import Header from "@/app/header/page";
 import Footer from "@/app/footer/page";
-import servicesData from "../data"; 
+import servicesData from "../data";
 import { BsArrowLeft } from "react-icons/bs";
 import { BsArrowRight } from "react-icons/bs";
 import StackUsed from '../stack'
 import ContactForm from '/src/app/industries/contactForm'
 import { TiGroupOutline } from "react-icons/ti";
 import { GoArrowUpRight } from "react-icons/go";
-import ProjectSlider from "./projectSlider"; 
-import BrandSliderTop from "./brandIdentityTop"; 
-import BrandSliderBottom from "./brandIdentitybottom"; 
+import ProjectSlider from "./projectSlider";
+import ProjectSliderThree from "./projectSliderThree";
+import BrandSliderTop from "./brandIdentityTop";
+import BrandSliderBottom from "./brandIdentitybottom";
 
 
 
@@ -35,7 +36,7 @@ export default function ServiceDetails() {
   const { id } = useParams();
   const router = useRouter();
 
-  
+
   const service = servicesData.find((item) => item.id === Number(id));
   if (!service) {
     return <p className={styles.notFound}>Service not found</p>;
@@ -44,10 +45,10 @@ export default function ServiceDetails() {
   // Handle category button clicks
   const handleCategoryClick = (category) => {
     if (category === "All") {
-  
+
       router.push("/our-services");
     } else {
-     
+
       const matchedService = servicesData.find(
         (item) => item.category === category
       );
@@ -248,16 +249,25 @@ export default function ServiceDetails() {
           </section>
           {/* ProjectSlider */}
           <section className={styles.solutionsSectionC}>
-            <h2 className={styles.headingS}>Look at some of our latest projects</h2>
-            <p className={styles.subheadingS}>
-              Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.
-            </p>
+           
             <div className={styles.PSliderContainer}>
               {service?.ProjectSliderData ? (
-                <ProjectSlider slides={service?.ProjectSliderData} />
-              ) : (
-                <ProjectSlider slides={service?.ProjectSliderThreeData} />
-              )}
+                <section className={styles.solutionsSectionC}>
+                  <h2 className={styles.headingS}>Look at some of our latest projects</h2>
+                  <p className={styles.subheadingS}>
+                    Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.
+                  </p>
+                  <ProjectSlider slides={service.ProjectSliderData} />
+                </section>
+              ) : service?.ProjectSliderThreeData ? (
+                <section className={styles.solutionsSectionC}>
+                  <h2 className={styles.headingS}>Look at some of our latest projects</h2>
+                  <p className={styles.subheadingS}>
+                    Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.
+                  </p>
+                  <ProjectSliderThree slides={service.ProjectSliderThreeData} />
+                </section>
+              ) : null}
             </div>
           </section>
 
@@ -303,7 +313,7 @@ function ZigzagCard({ card, index }) {
                       <li key={bulletIndex}>{bullet}</li>
                     ))}
                 </ul>
-                <button className={styles.contactButton}>Contact Now</button>
+                <a href="/nexus-Dev/contact-us"><button className={styles.contactButton}>Contact Now</button></a>
               </React.Fragment>
             ))
           ) : (
@@ -314,7 +324,7 @@ function ZigzagCard({ card, index }) {
                   <li>{card.description}</li>
                 </ul>
               )}
-              <button className={styles.contactButton}>Contact Now</button>
+            <a href="/nexus-Dev/contact-us"><button className={styles.contactButton}>Contact Now</button></a>
             </>
           )}
         </div>

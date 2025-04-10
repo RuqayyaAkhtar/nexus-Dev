@@ -5,12 +5,6 @@ import styles from './choose-nexus.module.css';
 import Image from 'next/image';
 import image1 from './health-care-imgs/Mask group.png';
 import image2 from './health-care-imgs/two doctors making finger heart.png';
-// import image3 from './health-care-imgs/Medical insurance policy or health insurance.png';
-// import image4 from './health-care-imgs/user interface elements.png';
-// import image5 from './health-care-imgs/Healthy lifestyle app on smartphone screen.png';
-// import image6 from './health-care-imgs/Health technology and digital health solutions.png';
-// import image7 from './health-care-imgs/Smartphone with online medical app surrounded by pills and thermometer.png';
-
 
 const ChooseNexus = () => {
   const solutions = [

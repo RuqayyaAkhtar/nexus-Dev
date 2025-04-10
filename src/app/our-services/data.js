@@ -20,8 +20,8 @@ import sliderImage7 from './architectImages/Frame 1000004282.png'
 import processImage1 from './architectImages/Group 1197132447.png'
 import processC from './architectImages/Ellipse 20.png'
 import maskImage from './architectImages/Mask group.png'
-import ProjectSliderImage1 from './architectImages/Frame 1000004279.png'
-import ProjectSliderImage2 from './architectImages/Frame 1000004281 (1).png'
+import ProjectSliderImage1 from './architectImages/Group 1197132608 (3).png'
+import ProjectSliderImage2 from './architectImages/Group 1197132608 (2).png'
 // .....bussiness analyst........................
 import bannerImageA from './bussinessAnalyst/image 138.png'
 import sectionImageA from './bussinessAnalyst/Group 1197132612 (1).png'
@@ -44,9 +44,9 @@ import bannerImage3 from './mobileApp/Group 1197132400.png'
 import  sectionImage3 from './mobileApp/image 85.png'
 import sliderImage13 from './mobileApp/image 81.png'
 import sliderImage14 from './mobileApp/iPhone 13 Pro-1.png'
-import ProjectSliderImage5 from './mobileApp/Frame 1000004276 (1).png'
-import ProjectSliderImage6 from './mobileApp/Frame 1000004277 (1).png'
-import ProjectSliderImage7 from './mobileApp/Frame 1000004278 (1).png'
+import ProjectSliderImage5 from './mobileApp/Rectangle 34625843.png'
+import ProjectSliderImage6 from './mobileApp/Rectangle 34625844.png'
+import ProjectSliderImage7 from './mobileApp/Rectangle 34625845.png'
 // graphic.....................
 import bannerImage4 from './graphicDesign/Group 1197132400 (1).png'
 import  sectionImage4 from './graphicDesign/Group 1197132625 (1).png'
@@ -76,8 +76,8 @@ import  sliderImageU2 from './ui-uxImages/image 123.png'
 import  sliderImageU3 from './ui-uxImages/image 125.png'
 import  sliderImageU4 from './ui-uxImages/image 126.png'
 import  sliderImageU5 from './ui-uxImages/image 127.png'
-import ProjectSliderImageU1 from './ui-uxImages/Frame 1000004279.png'
-import ProjectSliderImageU2 from './ui-uxImages/Frame 1000004280.png'
+import ProjectSliderImageU1 from './ui-uxImages/Group 1197132608.png'
+import ProjectSliderImageU2 from './ui-uxImages/Group 1197132609.png'
 // ........Digital Marketing.............................................................
 import  bannerImageD from './digitalMarketing/Pixabay-7971754.png'
 import  sectionImageD from './digitalMarketing/image 97.png'
@@ -287,15 +287,36 @@ const servicesData = [
    ProjectSliderData : [
     {
       image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      
     },
     {
       image:ProjectSliderImage3,
       image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      
     },
     {
       image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      
     },
   ],
   
@@ -501,15 +522,33 @@ const servicesData = [
    ProjectSliderData : [
     {
       image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       image:ProjectSliderImage3,
       image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       image:ProjectSliderImage3,
-      image2:ProjectSliderImage4
+      image2:ProjectSliderImage4,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   ],
   
@@ -714,17 +753,41 @@ const servicesData = [
     {
       image:ProjectSliderImage5,
       image2:ProjectSliderImage6,
-      image3:ProjectSliderImage7
+      image3:ProjectSliderImage7,
+      title: "PROJECT NAME",
+      desc: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title2: "PROJECT NAME",
+      desc2: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title3: "Lorem Health",
+      desc3: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
     },
     {
       image:ProjectSliderImage5,
       image2:ProjectSliderImage6,
-      image3:ProjectSliderImage7
+      image3:ProjectSliderImage7,
+      title: "PROJECT NAME",
+      desc: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title2: "PROJECT NAME",
+      desc2: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title3: "Lorem Health",
+      desc3: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
     },
     {
       image:ProjectSliderImage5,
       image2:ProjectSliderImage6,
-      image3:ProjectSliderImage7
+      image3:ProjectSliderImage7,
+      title: "PROJECT NAME",
+      desc: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title2: "PROJECT NAME",
+      desc2: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
+
+      title3: "Lorem Health",
+      desc3: "Explore our latest projects and see how we’re helping businesses thrive with innovative digital solutions.",
     },
   ],
   
@@ -959,15 +1022,33 @@ const servicesData = [
  ProjectSliderData : [
   {
     image:ProjectSliderImage1,
-    image2:ProjectSliderImage2
+    image2:ProjectSliderImage2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage2,
     image2:ProjectSliderImage1,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage1,
-    image2:ProjectSliderImage2
+    image2:ProjectSliderImage2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ],
   },
@@ -1157,15 +1238,33 @@ const servicesData = [
    ProjectSliderData : [
     {
       image:ProjectSliderImage1,
-      image2:ProjectSliderImage2
+      image2:ProjectSliderImage2,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       image:ProjectSliderImage1,
       image2:ProjectSliderImage2,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       image:ProjectSliderImage1,
-      image2:ProjectSliderImage2
+      image2:ProjectSliderImage2,
+      heading: "PROJECT NAME",
+      date: "Aug 28, 2024",
+      paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      heading2: "PROJECT NAME",
+      date2: "Aug 28, 2024",
+      paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   ],  
   // .......................................
@@ -1502,15 +1601,33 @@ brandIdentityData: {
  ProjectSliderData : [
   {
     image:ProjectSliderImage1,
-    image2:ProjectSliderImage2
+    image2:ProjectSliderImage2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage2,
     image2:ProjectSliderImage1,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage1,
-    image2:ProjectSliderImage2
+    image2:ProjectSliderImage2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ],
   },
@@ -1716,15 +1833,33 @@ brandIdentityData: {
  ProjectSliderData : [
   {
     image:ProjectSliderImageU1,
-    image2:ProjectSliderImageU2
+    image2:ProjectSliderImageU2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImageU1,
     image2:ProjectSliderImageU2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImageU1,
-    image2:ProjectSliderImageU2
+    image2:ProjectSliderImageU2,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ],  
 
@@ -1924,15 +2059,33 @@ brandIdentityData: {
  ProjectSliderData : [
   {
     image:ProjectSliderImage3,
-    image2:ProjectSliderImage4
+    image2:ProjectSliderImage4,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage3,
     image2:ProjectSliderImage4,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     image:ProjectSliderImage3,
-    image2:ProjectSliderImage4
+    image2:ProjectSliderImage4,
+    heading: "PROJECT NAME",
+    date: "Aug 28, 2024",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    heading2: "PROJECT NAME",
+    date2: "Aug 28, 2024",
+    paragraph2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ],
 

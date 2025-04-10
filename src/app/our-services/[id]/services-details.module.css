@@ -336,7 +336,8 @@
   left: -10px;
 }
 
-
+  
+  
 .cardContent {
   display: flex;
   flex-direction: column;
@@ -379,6 +380,7 @@
   bottom: 0;
   width: 30%;
   right: 0;
+  border: 1px solid red;
   /* height: 100%; */
 }
 .heroImage2{
@@ -504,15 +506,6 @@
   color: var(--primary-color);
 }
 
-.contactLink {
-  display: inline-flex;
-  align-items: center;
-  background-color: #0070f3;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-}
 
 /* ====== Cards Section ====== */
 /* cards header */
@@ -597,6 +590,11 @@
   border: 1px solid var(--secondary-color);
   border-radius: 30px;
   cursor: pointer;
+  transition: all .3s;
+}
+.contactButton:hover {
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .sliderSection {
@@ -634,8 +632,13 @@
   color: var(--secondary-color);
   border-radius: 30px;
   cursor: pointer;
+  transition: all .3s;
 }
-
+.sliderButtons button:hover{
+  background-color: var(--secondary-color)
+  ;
+  color: white;
+}
 /* ====== Old Content Section ====== */
 .oldContentSection {
   max-width: 1200px;
@@ -660,15 +663,190 @@
   border-radius: 0 !important;
   overflow: visible !important;
 }
+
 /* ................ */
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.projectImage {
+  border-radius: 20px;
+}
+
+.overlayContent {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: white;
+  z-index: 2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: var(--font-family4); 
+  text-align: left;
+
+}
+
+.projectDesc {
+  font-size: 14px;
+  font-family: var(--font-family4); 
+  margin-bottom: 15px;
+  text-align:left ;
+}
+
+.overlayContent a {
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  padding: 8px 20px;
+  color: var(--secondary-color);
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+  font-family: var(--font-family4);
+  transition: all .3s;
+}
+.overlayContent button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-family4);
+  color: var(--secondary-color);
+}
+.overlayContent a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.overlayContent a:hover .viewButton {
+  color: white !important;
+}
 /* Slider container */
+/* ... your existing sliderSection1, sliderContainer, slidesWrapper, slide ... */
+
+/* Card wrapper */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image */
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.projectImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Content below each image */
+
+.cardContentS {
+  padding: 0.75rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  justify-content: flex-start;
+  font-family: var(--font-family4);
+}
+.cardTitleS {
+  font-size: 30px;
+  margin: 0 0 0.25rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: left;
+}
+.cardDateS {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0 0 0.5rem;
+}
+.cardDescS {
+  font-size: 16px;
+  color: var(--primary-color);
+  line-height: 1.4;
+  margin: 0;
+  text-align: left;
+}
+  
+.cardContentS a {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid var(--secondary-color);
+  padding: 8px 20px;
+  color: var(--secondary-color);
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  text-align: center;
+  align-self: flex-start;
+  font-family: var(--font-family4);
+  transition: all .3s;
+}
+.cardContentS button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-family4);
+  color: var(--secondary-color);
+}
+.cardContentS a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.cardContentS a:hover .viewButton {
+  color: white !important;
+}
+/* Slider container */
+
+/* Dots */
+@media (max-width: 700px) {
+  .topSlide {
+    padding: 0.25rem;
+  }
+  /* Ensure each “page” really only shows one */
+  .topSliderPage {
+    justify-content: center;
+  }
+}
+/* At 700px and below, force each slide to be a single column */
+
+
+
+
 
 
 @media (max-width:900px){
     .imageContainer2{
     width: 50%;
-
   }
+.projectTitle {
+  font-size: 15px;
+}
+
+.projectDesc {
+  font-size: 11px;
+}
+
+
+
       }
 @media (max-width:650px){
  .headingS{
