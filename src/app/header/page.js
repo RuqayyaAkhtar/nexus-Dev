@@ -6,10 +6,13 @@ import styles from '../page.module.css';
 import '../globals.css';
 import { CiMenuBurger } from "react-icons/ci";
 import { VscChromeClose } from "react-icons/vsc";
+import { usePathname } from 'next/navigation';
+
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
@@ -42,7 +45,7 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li><a href="/nexus-Dev">Home</a></li>
+          <li><a   href="/nexus-Dev" className={pathname === '/nexus-Dev' ? styles.active : ''}>Home</a></li>
           <li><a href="/nexus-Dev/industries">Industries</a></li>
           <li><a href="/nexus-Dev/our-services">Services</a></li>
           <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
