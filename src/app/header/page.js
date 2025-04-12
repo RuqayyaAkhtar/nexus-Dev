@@ -45,11 +45,11 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li><a   href="/nexus-Dev" className={pathname === '/nexus-Dev' ? styles.active : ''}>Home</a></li>
-          <li><a href="/nexus-Dev/industries">Industries</a></li>
-          <li><a href="/nexus-Dev/our-services">Services</a></li>
-          <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>
-          <li><a href="/nexus-Dev/about-us">About us</a></li>
+          <li><a href="/nexus-Dev" className={pathname === '/nexus-Dev' ? styles.active : ''}>Home</a></li>
+          <li><a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active :''} >Industries</a></li>
+          <li><a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}>Services</a></li>
+          <li><a href="/nexus-Dev/portfolio"  className={pathname.startsWith('nexus-Dev/portfolio') ? styles.active : ''}>Portfolio</a></li>
+          <li><a href="/nexus-Dev/about-us" className={pathname.startsWith('nexus-Dev/about-us') ? styles.active : ''} >About us</a></li>
         </ul>
       </nav>
 
@@ -69,7 +69,7 @@ const Header = () => {
               </button>
             </div>
             <ul className={styles.menuList}>
-              <li><a href="/nexus-Dev">Home</a></li>
+              <li><a href="/nexus-Dev" >Home</a></li>
               <li><a href="/nexus-Dev/industries">Industries</a></li>
               <li><a href="/nexus-Dev/our-services">Service</a></li>
               <li><a href="/nexus-Dev/portfolio">Portfolio</a></li>

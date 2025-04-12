@@ -23,8 +23,8 @@
 .header.scrolled {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
 }
-.active {
-  color: var(--secondary-color);zxcd km: ;
+.navList li a.active {
+  color: var(--secondary-color);
 }
 .searchPopup {
   position: fixed;
@@ -307,6 +307,9 @@
 
 .footerSection ul li:hover {
   font-weight: 400;
+  color:var(--secondary-color);
+}
+.footerSection ul li.active {
   color:var(--secondary-color);
 }
 
