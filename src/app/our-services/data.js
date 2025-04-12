@@ -162,7 +162,7 @@ const servicesData = [
                   ],
                 }
               ],
-              images: [sliderImage8, sliderImage9],
+              images: [sliderImage8, sliderImage8],
             },
             {
               text:[
@@ -193,7 +193,7 @@ const servicesData = [
   
                 }
               ],
-              images: [sliderImage10,sliderImage8],
+              images: [sliderImage10,sliderImage9],
             },
             {
               text:[

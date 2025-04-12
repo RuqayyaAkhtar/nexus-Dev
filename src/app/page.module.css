@@ -309,9 +309,6 @@
   font-weight: 400;
   color:var(--secondary-color);
 }
-.footerSection ul li.active {
-  color:var(--secondary-color);
-}
 
 .contact {
 margin-top: 40px;
