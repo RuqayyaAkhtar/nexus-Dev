@@ -48,8 +48,8 @@ const Header = () => {
           <li><a href="/nexus-Dev" className={pathname === '/' ? styles.active : ''}>Home</a></li>
           <li><a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active :''} >Industries</a></li>
           <li><a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}>Services</a></li>
-          <li><a href="/nexus-Dev/portfolio"  className={pathname.startsWith('nexus-Dev/portfolio') ? styles.active : ''}>Portfolio</a></li>
-          <li><a href="/nexus-Dev/about-us" className={pathname.startsWith('nexus-Dev/about-us') ? styles.active : ''} >About us</a></li>
+          <li><a href="/nexus-Dev/portfolio"  className={pathname.startsWith('/portfolio') ? styles.active : ''}>Portfolio</a></li>
+          <li><a href="/nexus-Dev/about-us" className={pathname.startsWith('/about-us') ? styles.active : ''} >About us</a></li>
         </ul>
       </nav>
 

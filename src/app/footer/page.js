@@ -41,45 +41,45 @@ const Footer = () => {
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Services</h3>
               <ul>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''} > <li>Business Analyst</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>System Architect</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>Business Consultant</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>Graphic Designer</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>App Development</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}>  <li>Web Development</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>UI UX Design</li></a>
-               <a href="/nexus-Dev/our-services" className={pathname.startsWith('nexus-Dev/our-services') ? styles.active : ''}> <li>3D Animation</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''} > <li>Business Analyst</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>System Architect</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>Business Consultant</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>Graphic Designer</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>App Development</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}>  <li>Web Development</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>UI UX Design</li></a>
+               <a href="/nexus-Dev/our-services" className={pathname.startsWith('/our-services') ? styles.active : ''}> <li>3D Animation</li></a>
               </ul>
             </div>
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Industries</h3>
               <ul>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Telecommunication</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Health Care</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Accountants</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Law Firms</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>State Agencies </li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Travel</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li> eCommerce</li></a>
-               <a href="/nexus-Dev/industries" className={pathname.startsWith('nexus-Dev/industries') ? styles.active : ''}> <li>Education</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Telecommunication</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Health Care</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Accountants</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Law Firms</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>State Agencies </li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Travel</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li> eCommerce</li></a>
+               <a href="/nexus-Dev/industries" className={pathname.startsWith('/industries') ? styles.active : ''}> <li>Education</li></a>
               </ul>
             </div>
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Solutions</h3>
               <ul>
-              <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}> <li>App Build Cost</li></a>
-               <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}><li>Build own App</li></a>
-              <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}> <li>Redesign</li></a>
-              <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}> <li>Web Design</li></a>
-              <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}> <li>Wen Development</li></a>
-              <a href="/nexus-Dev/solutions" className={pathname.startsWith('nexus-Dev/solutions') ? styles.active : ''}> <li>Rebrand</li></a>
+              <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}> <li>App Build Cost</li></a>
+               <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}><li>Build own App</li></a>
+              <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}> <li>Redesign</li></a>
+              <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}> <li>Web Design</li></a>
+              <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}> <li>Wen Development</li></a>
+              <a href="/nexus-Dev/solutions" className={pathname.startsWith('/solutions') ? styles.active : ''}> <li>Rebrand</li></a>
               </ul>
             </div>
             <div className={`${styles.footerSection} ${styles.footer2}`}>
               <h3>Company</h3>
               <ul>
-               <a href="/nexus-Dev/about-us" className={pathname.startsWith('nexus-Dev/about-us') ? styles.active : ''}> <li>About us</li></a>
-               <a href="/nexus-Dev/why-us" className={pathname.startsWith('nexus-Dev/why-us') ? styles.active : ''}> <li>Why us</li></a>
+               <a href="/nexus-Dev/about-us" className={pathname.startsWith('/about-us') ? styles.active : ''}> <li>About us</li></a>
+               <a href="/nexus-Dev/why-us" className={pathname.startsWith('/why-us') ? styles.active : ''}> <li>Why us</li></a>
                <a href="/nexus-Dev/contact-us"> <li>Contact us</li></a>
                <a href="/nexus-Dev/case-study"> <li>Case Study</li></a>
                <a href="/nexus-Dev/faqs"> <li>FAQs</li></a>
