@@ -8,7 +8,6 @@ export default function ProjectSlider({ slides = [] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Listen for resize events to toggle mobile view
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
@@ -18,7 +17,6 @@ export default function ProjectSlider({ slides = [] }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // For mobile, flatten the slide data into individual image cards
   let mobileSlides = [];
   if (isMobile && slides.length > 0) {
     slides.forEach((slide) => {
@@ -30,8 +28,6 @@ export default function ProjectSlider({ slides = [] }) {
     });
   }
 
-  // Use an interval to automatically move the slider.
-  // On mobile, the number of pages is the number of groups of two cards.
   useEffect(() => {
     const slideLength = isMobile ? Math.ceil(mobileSlides.length / 2) : slides.length;
     if (slideLength === 0) return;
@@ -45,7 +41,6 @@ export default function ProjectSlider({ slides = [] }) {
     setCurrentIndex(index);
   };
 
-  // Helper to render an individual image card with overlay content
   const renderImageCard = (src, title, desc, key) => (
     <div className={styles.imageWrapper} key={key}>
       <Image
@@ -104,7 +99,6 @@ export default function ProjectSlider({ slides = [] }) {
     );
   }
 
-  // Desktop slider view (existing behavior)
   return (
     <section className={styles.sliderSection1}>
       <div className={styles.sliderContainer}>

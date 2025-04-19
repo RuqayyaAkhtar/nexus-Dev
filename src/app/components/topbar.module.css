@@ -1,0 +1,48 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #BDBDBD1A;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.leftGroup,
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: var(--bg-hover);
+}
+
+.markRead {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #BDBDBD1A;
+  color:black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.markRead:hover {
+  background: var(--primary-dark);
+}

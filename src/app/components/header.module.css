@@ -1,0 +1,51 @@
+.headerMain{
+    width: 100%;
+    z-index: 20;
+  }
+  .header {
+    width: 100%;
+    max-width: 1250px;
+    margin: 10px auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: #3247461A;
+  border-radius: 20px;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 150px;
+  }
+  .right{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 40px;
+    padding: 10px;
+}
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .name {
+    font-weight: 400;
+    color: var(--secondary-color);
+    font-size: 20px;
+  }
+  
+
+  
+  .logo {
+    height: 32px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
+  

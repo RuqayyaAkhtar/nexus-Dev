@@ -985,11 +985,12 @@
     width: 80%;
     bottom: -3.5%;
     margin:auto;
-    max-width: none;
+    max-width: none;  
     display: flex;
     align-items:center;
     justify-content: center;
   }
+  
   .heroImage {
     width: 100%;
     height: auto;
