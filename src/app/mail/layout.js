@@ -6,6 +6,8 @@ import styles  from "./layout.module.css";
 
 export default function MailLayout({ children }) {
   return (
+    <>
+    <section className={styles.section}>
     <div className={styles.container}>
       {/* Top header with logo, search, avatar */}
       <Header />
@@ -22,5 +24,7 @@ export default function MailLayout({ children }) {
         </div>
       </div>
     </div>
+    </section>
+    </>
   );
 }

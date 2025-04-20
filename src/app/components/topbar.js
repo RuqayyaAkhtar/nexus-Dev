@@ -28,17 +28,17 @@ export default function Topbar() {
     <div className={styles.topbar}>
       <div className={styles.leftGroup}>
         <button className={styles.btn} onClick={handleSelectAll}>
-          {allSelected ? <CheckedIcon size={18} /> : <SelectAllIcon size={18} />}
+          {allSelected ? <CheckedIcon size={18} className={styles.radioo} /> : <SelectAllIcon size={18} className={styles.radioo} />}
         </button>
-        <button className={styles.btn}><DownloadIcon size={18} /></button>
-        <button className={styles.btn}><InfoIcon size={18} /></button>
-        <button className={styles.btn}><DeleteIcon size={18} /></button>
-        <button className={styles.btn}><RefreshIcon size={18} /></button>
+        <button className={styles.btn}><DownloadIcon size={18}  /></button>
+        <button className={styles.btn}><InfoIcon size={18}  /></button>
+        <button className={styles.btn}><DeleteIcon size={18}  /></button>
+        <button className={styles.btn}><RefreshIcon size={18}  /></button>
       </div>
 
       <div className={styles.rightGroup}>
-        <button className={styles.markRead}><MarkReadIcon size={18} /> Mark all read</button>
-        <button className={styles.btn}><MoreIcon size={18} /></button>
+        <button className={styles.markRead}><MarkReadIcon size={18}  /><span> Mark all read</span></button>
+        <button className={styles.btn}><MoreIcon size={18}  /></button>
       </div>
     </div>
   )

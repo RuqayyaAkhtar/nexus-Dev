@@ -48,4 +48,32 @@
     width: 100%;
     height: auto;
   }
+
+  @media (max-width: 900px) {
+    .header {
+      padding: 0 2%;
+    }
+    .left {
+      width: 100px;
+    }
+    .name {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 530px) {
+    .header {
+      padding: 0 2%;
+      height: 60px;
+    }
+    .left {
+      width: 80px;
+    }
+    .name {
+      font-size: 13px;
+    }
+    .right{
+      padding: 5px;
+    }
+  }
+
   

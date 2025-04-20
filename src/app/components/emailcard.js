@@ -20,8 +20,8 @@ export default function EmailCard({ email }) {
         aria-label="Star email"
       >
         {starred
-          ? <Star fill="gold" stroke="gold" size={18} />
-          : <StarOff size={18} />}
+          ? <Star fill="gold" stroke="gold" size={18} className={styles.starIcon}/>
+          : <StarOff size={18} className={styles.starIcon}/>}
       </button>
 
       {/* 3. Sender & Subject */}

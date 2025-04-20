@@ -177,12 +177,12 @@
 }
 .btns{
   border: none;
-  padding: 5px;
+  padding: 4px;
   border-radius: 5px;
 }
 .toolIcon {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
   transition: 0.2s;
   color: #333;
@@ -191,10 +191,10 @@
   color: var(--secondary-color);
 }
 .dropdown {
-  padding: 6px 10px;
+  padding: 4px 8px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 12px;
   background: #fff;
 }
 
@@ -205,12 +205,12 @@
   gap: 1rem;
  align-self: flex-end;
  justify-self: flex-end !important;
- margin-left: 30px;
+ margin-left: 5px;
 }
 .cancelBtn,
 .sendBtn {
-  padding: 0.6rem 1.2rem;
-  font-size: 14px;
+  padding: 0.6rem 1rem;
+  font-size: 12px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -252,3 +252,43 @@
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   z-index: 1001;
 }
+
+@media (max-width: 900px) {
+
+  .senderName {
+    font-size: 14px;
+  }
+  .metaInfo p {
+    font-size: 12px;
+  }
+  
+.subjectLabel {
+  font-size: 13px;
+}
+
+.detailLabel {
+  font-size: 13px;
+}
+.detailText {
+  font-size: 12px;
+}
+.footerTag {
+  font-size: 11px;
+}
+
+.replyBtn,
+.forwardBtn {
+  padding: 0.4rem 1rem;
+  font-size: 12px;
+}
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0rem !important;
+}
+.mailInfo{
+margin-bottom: 5px;
+}
+
+}
+

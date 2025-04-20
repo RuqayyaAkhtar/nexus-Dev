@@ -103,3 +103,91 @@
 .moreBtn:hover {
   color: #333;
 }
+
+@media (max-width: 900px) {
+ .textGroup{
+  gap: 15px;
+  margin-left: 5px;
+ }
+ .emailRow{
+  gap:5px;
+  align-items: center;
+ }
+ 
+.name {
+  font-size: 11px;
+}
+
+.subject {
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.time {
+  font-size: 7px;
+  white-space: nowrap;
+}
+.moreBtn svg{
+  height: 14px !important;
+  width: 14px !important;
+}
+.radioo{
+  height: 12px !important;
+  width: 12px !important;
+  border:.10rem solid #555 !important;
+}
+.starIcon{
+  height: 14px !important;
+  width: 14px !important;
+}
+  }
+
+  @media (max-width: 530px) {
+
+    .name {
+      font-size: 8px;
+    }
+    
+    .subject {
+      font-size: 7px;
+      white-space: wrap;
+    }
+    
+    .time {
+      font-size: 6px;
+      white-space: wrap;
+    }
+    .moreBtn svg{
+      height: 12px !important;
+      width: 12px !important;
+    }
+    .radioo{
+      height: 10px !important;
+      width: 10px !important;
+      border:.10rem solid #555 !important;
+    }
+    .starIcon{
+      height: 12px !important;
+      width: 12px !important;
+    }
+    .emailRow{
+      gap: 2px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .name {
+      font-size: 7px;
+    }
+    
+    .subject {
+      font-size: 6px;
+      white-space: wrap;
+    }
+    
+    .time {
+      font-size: 5px;
+      white-space: wrap;
+    }
+  }

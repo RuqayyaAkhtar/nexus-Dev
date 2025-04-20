@@ -16,14 +16,14 @@ export default function EmailPage({ params }) {
 
   if (!email) {
     return (
-      <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+      <div style={{ fontFamily: 'sans-serif' }}>
         Email not found.
       </div>
     );
   }
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '10px' }}>
       <EmailDetail email={email} />
     </div>
   );

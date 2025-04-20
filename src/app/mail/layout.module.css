@@ -1,25 +1,29 @@
-/* src/app/mail/layout.module.css */
-
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+}
+.section {
+ width: 100%;
 }
 
 .layout {
   display: flex;
-  flex: 1; /* fills remaining vertical space under header */
+  flex: 1; 
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  flex: 1; /* takes the rest of the horizontal space beside sidebar */
+  flex: 1; 
   overflow: hidden;
 }
 
 .content {
   flex: 1;
-  overflow-y: auto; /* scrollable content area */
-  padding: 24px 0;
+  overflow-y: auto; 
+  padding: 0 0 24px 0;
 }

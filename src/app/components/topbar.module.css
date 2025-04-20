@@ -4,8 +4,8 @@
   align-items: center;
   padding: 12px 16px;
   background: #BDBDBD1A;
-    border-bottom: 1px solid var(--border-color);
-    border-radius: 10px;
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 10px;
 }
 
 .leftGroup,
@@ -30,13 +30,19 @@
   background-color: var(--bg-hover);
 }
 
+.radioo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .markRead {
   display: flex;
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
   background: #BDBDBD1A;
-  color:black;
+  color: black;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -45,4 +51,36 @@
 
 .markRead:hover {
   background: var(--primary-dark);
+}
+
+@media (max-width: 900px) {
+  /* Hide the "Mark all read" text on small screens */
+  .markRead span {
+    display: none;
+  }
+  .markRead {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  /* Shrink all icons in buttons */
+  .btn svg,
+  .markRead svg,
+  .radioo {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .topbar{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .btn svg,
+  .markRead svg,
+  .radioo {
+    width: 12px !important;
+    height: 12px !important;
+  }
 }

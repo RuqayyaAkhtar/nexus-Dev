@@ -1,3 +1,4 @@
+/* Desktop (all screens >900px): always full‑width */
 .sidebar {
   width: 240px;
   background: #BDBDBD1A;
@@ -7,20 +8,26 @@
   padding-top: 16px;
   margin-right: 10px;
   border-radius: 10px;
+  transition: width 0.2s ease;
 }
 
-.sectionHeading {
+/* Hide the toggle‑button on desktop */
+.toggleBtn {
+  display: none;
+  padding: 12px 16px;
+  margin:0;
   font-size: 18px;
-  font-weight: 600;
-  color: var(--text-color);
-  padding: 0 16px 12px;
-  text-transform: capitalize;
 }
 
-.nav {
-  flex: 1;
+/* Always show these on desktop */
+.sectionHeading,
+.label,
+.count {
+  display: block;
 }
 
+/* Nav/link styles unchanged */
+.nav { flex: 1; }
 .link {
   display: flex;
   align-items: center;
@@ -30,31 +37,90 @@
   color: var(--text-color);
   font-size: 14px;
 }
-
-.icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.label {
-  flex: none;
-}
-
+.icon { display: flex; align-items: center; justify-content: center; }
+.label { flex: none; }
 .count {
   margin-left: auto;
   font-size: 12px;
   color: var(--text-muted);
 }
+.link:hover { background: var(--bg-hover); }
+.active { background: var(--bg-active); font-weight: 600; }
 
-.link:hover {
-  background: var(--bg-hover);
+/* —————————————————— MOBILE ≤900px —————————————————— */
+@media (max-width: 900px) {
+  /* collapse to icons-only by default */
+  .sidebar {
+    width: max-content  ;
+    margin-right: 0;
+    box-shadow: none;
+    position: relative;
+    transition: width 0.2s ease;
+  }
+  
+  /* show the toggle‑button on mobile */
+  .toggleBtn {
+    display: block;
+    align-self: flex-end;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* hide all text/heading/count by default */
+  .sectionHeading,
+  .label,
+  .count {
+    display: none;
+  }
+  
+  /* when “expanded” is present → full width + show text */
+  .expanded {
+    width: 240px !important;
+  }
+  .expanded .sectionHeading,
+  .expanded .label,
+  .expanded .count {
+    display: block !important;
+  }
+}
+@media (max-width: 900px) {
+  /* Shrink each folder icon */
+  .sidebar .icon svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  
+  /* Also shrink the toggle button’s icon */
+  .toggleBtn svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .sidebar {
+    border-top-right-radius: 0 !important;
+    padding-top: 0;
+  }
 }
 
-.active {
-  background: var(--bg-active);
-  font-weight: 600;
-}
-.row{
-  border: 1px solid ;
+@media (max-width: 530px) {
+  .sidebar .icon svg {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  
+  /* Also shrink the toggle button’s icon */
+  .toggleBtn svg {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .link {
+    padding: 12px;
+  }
+  .sidebar {
+    width: max-content !important;
+    gap: 0 !important;
+    margin-right: 0;
+    border-top-right-radius: 0 !important;
+    border-radius: 0 !important;
+  }
 }
