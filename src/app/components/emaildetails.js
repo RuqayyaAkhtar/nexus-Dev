@@ -5,7 +5,6 @@ import { useState, useRef, useEffect } from 'react';
 import styles from './emaildetails.module.css';
 import { HiOutlineArrowTurnUpLeft } from "react-icons/hi2";
 import { HiOutlineArrowTurnUpRight } from "react-icons/hi2";
-
 import {
   Trash2, Bold, Italic,
   AlignLeft, AlignCenter, AlignRight,
@@ -51,7 +50,7 @@ export default function EmailDetail({ email }) {
       <div className={styles.mailInfo}>
         <div className={styles.senderInfo}>
           <div className={styles.imageDiv}>
-          <Image src={email.avatar} alt="" className={styles.avatar} />
+            <Image src={email.avatar} alt="" className={styles.avatar} />
             <h3 className={styles.senderName}>{email.name}</h3>
           </div>
           <div className={styles.mainInfo}>
@@ -78,11 +77,11 @@ export default function EmailDetail({ email }) {
       {/* — Actions — */}
       <div className={styles.actions}>
         <button className={styles.replyBtn} onClick={() => setShowReply(true)}>
-        <HiOutlineArrowTurnUpLeft className={styles.iconss} />
-        Reply Email
+          <HiOutlineArrowTurnUpLeft className={styles.iconss} />
+          Reply Email
         </button>
         <button className={styles.forwardBtn}>
-        Forward <HiOutlineArrowTurnUpRight className={styles.iconss} /></button>
+          Forward <HiOutlineArrowTurnUpRight className={styles.iconss} /></button>
       </div>
 
       {/* — Reply Popup — */}
@@ -115,18 +114,18 @@ export default function EmailDetail({ email }) {
           </div>
 
           <div className={styles.toolbar}>
-            <select onChange={e => exec('fontName', e.target.value)} className={styles.dropdown}>
-              <option>Aeonik Pro</option>
-              <option>Arial</option>
-              <option>Times New Roman</option>
-              <option>Courier New</option>
+            <select defaultValue="option1" onChange={e => exec('fontName', e.target.value)} className={styles.dropdown}>
+              <option value="option1">Aeonik Pro</option>
+              <option value="option2">Arial</option>
+              <option value="option3">Times New Roman</option>
+              <option value="option4">Courier New</option>
             </select>
-            <select onChange={e => exec('fontSize', e.target.value)} className={styles.dropdown}>
-              <option value="2">14 px</option>
-              <option value="3">16 px</option>
-              <option value="4" selected>18 px</option>
-              <option value="5">20 px</option>
+            <select defaultValue="option3" className={styles.dropdown}>
+              <option value="option1">14 px</option>
+              <option value="option2">16 px</option>
+              <option value="option3" selected>18 px</option>
             </select>
+
             <button className={styles.btns} onClick={() => exec('bold')}><Bold className={styles.toolIcon} /></button>
             <button className={styles.btns} onClick={() => exec('italic')}><Italic className={styles.toolIcon} /></button>
             <button className={styles.btns} onClick={() => exec('justifyLeft')}><AlignLeft className={styles.toolIcon} /></button>
@@ -138,21 +137,21 @@ export default function EmailDetail({ email }) {
             <button className={styles.btns} onClick={insertImage}><ImageIcon className={styles.toolIcon} /></button>
             <button className={styles.btns}><MoreHorizontal className={styles.toolIcon} /></button>
             <div className={styles.replyActions}>
-            <button className={styles.cancelBtn} onClick={() => {
-              setShowReply(false);
-              editorRef.current.innerHTML = '';
-              setCharCount(0);
-            }}>Cancel</button>
-            <button className={styles.sendBtn} onClick={() => {
-              // todo: hook up your API send
-              console.log(editorRef.current.innerHTML);
-            }}>
-              <Send className={styles.sendIcon} /> Send
-            </button>
-          </div>
+              <button className={styles.cancelBtn} onClick={() => {
+                setShowReply(false);
+                editorRef.current.innerHTML = '';
+                setCharCount(0);
+              }}>Cancel</button>
+              <button className={styles.sendBtn} onClick={() => {
+                // todo: hook up your API send
+                console.log(editorRef.current.innerHTML);
+              }}>
+                <Send className={styles.sendIcon} /> Send
+              </button>
+            </div>
           </div>
 
-        
+
         </div>
       )}
     </div>
